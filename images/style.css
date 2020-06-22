@@ -1,0 +1,1694 @@
+﻿/*2015-11-10*/
+.history_main{ overflow:hidden;}
+.history_main_header{ overflow:hidden; border-bottom:1px solid #c9c9c9; margin-bottom:54px; width:1080px; margin:0 auto; padding-left:120px;}
+.history_main_header_box{ width:850px; overflow:hidden; position:relative;}
+.history_main_header_box ul{ width:8000%; position:relative;}
+.history_main_header_box li{ width:50px; float:left; margin-right:50px; line-height:38px; height:38px; padding-bottom:14px; border-bottom:3px solid #fff; font-size:20px; color:#636363; text-align:center; cursor:pointer;}
+.history_main_header_box li.active{ color:#fb2d39; border-bottom:3px solid #fb2f1f;}
+
+.history_main_header_l{ display:block; width:33px; height:34px; background:url(../images/dev_l1.jpg) no-repeat; float:left;}
+.history_main_header_r{ display:block; width:33px; height:34px; background:url(../images/dev_r.jpg) no-repeat; float:left;}
+.history_main_header_box{ float:left; margin:0 26px;}
+
+.history_main_wrap_tit > h4{ line-height:46px; font-size:20px; color:#fb2f1f; text-align:center; padding-bottom:12px; background:url(../images/dev_dot.jpg) no-repeat center bottom;}
+.history_main_wrap ul{ margin-left:-86px; visibility:hidden; max-height:0; overflow:hidden;}
+.history_main_wrap ul.active{ visibility:visible; max-height:none; }
+
+.history_main_wrap li{ width:387px; margin-bottom:60px; padding-left:86px;}
+.history_main_wrap li > img{ width:100%; height:auto; margin-bottom:14px;}
+.history_main_wrap li dt{ line-height:22px; font-size:14px; color:#464646;}
+.history_main_wrap li dd{ font-size:12px; color:#464646; line-height:22px;}
+.history_main_wrap{ width:863px; margin:0 auto; background:url(../images/kine.jpg) repeat-y center top;}
+
+/*2015-11-6*/
+.industry_list_new{ width:100%;}
+
+.industry_list_new_part1{ width:100%; position:relative; margin-bottom:0;}
+.industry_list_new_part1 > img{ width:100%; height:auto;}
+.ind_list_txt{ position:absolute; left:0; top:20px; text-align:center; width:100%;}
+.ind_list_txt h5{ line-height:80px; font-size:44px; color:#464646; font-weight:normal;}
+.ind_list_txt p{ line-height:24px; font-size:14px; color:#787878; height:72px; overflow:hidden;}
+
+.ship-1 .r .p{ height:9em; overflow:hidden;}
+
+.industry_list_new_part2{ width:100%; overflow:hidden; padding-bottom:0px; background:url(../images/ind_new_img2.jpg) repeat-x bottom left;}
+.industry_list_new_part2 h4{ padding:34px 0; font-weight:normal;}
+.industry_list_new_part2 h4 span{ display:block; text-align:center; line-height:50px; font-size:36px; color:#464646;}
+.industry_list_new_part2 h4 em{ display:block; text-align:center; line-height:16px; color:#c3c3c3; font-size:12px; text-transform:uppercase;}
+.industry_list_new_part2 ul{ width:104%;}
+.industry_list_new_part2 ul li{ width:30.8%; margin-right:1.65%; float:left; border:1px solid #e1e1e1; margin-bottom:30px; text-align:center;}
+.industry_list_new_part2 ul li > a{ display:block; padding:28px 0; width:100%;}
+.industry_list_new_part2 ul li > a em{ display:block; margin:0 auto; width:30px; height:20px; border-top:3px solid #b5b5b5;}
+.industry_list_new_part2 ul li > a p{ font-size:16px; color:#464646; width:90%; margin:0 auto; }
+.industry_list_new_part2 ul li:hover{ border:1px solid #fa2700; background:#e60012;}
+.industry_list_new_part2 ul li:hover > a em{ border-top:3px solid #fff;}
+.industry_list_new_part2 ul li:hover > a p{ color:#fff;}
+
+.industry_list_new_part2p ul li{ width:17.74%; margin-right:1.65%; float:left; border:1px solid #e1e1e1; margin-bottom:30px; text-align:center; border-top:3px solid #e21306;}
+.industry_list_new_part2p ul li > a{ display:block; padding:44px 0; width:100%;}
+.industry_list_new_part2p ul li > a em{ display:block; margin:0 auto; width:30px; height:20px; border-top:3px solid #b5b5b5; display:none;}
+.industry_list_new_part2p ul li > a p{ font-size:16px; color:#464646; width:90%; margin:0 auto; height:50px; background:url(../images/icon_ni.png) no-repeat center 31px; }
+.industry_list_new_part2p ul li.hover{ border:1px solid #e21306; border-top:3px solid #e21306; background:#e60012;}
+.industry_list_new_part2p ul li.hover > a em{ border-top:3px solid #fff;}
+.industry_list_new_part2p ul li.hover > a p{ color:#fff; background:url(../images/icon_ni_act.png) no-repeat center 31px;}
+
+.industry_list_new_part2t ul li{ width:17.74%; margin-right:1.65%; float:left; border:1px solid #e1e1e1; margin-bottom:30px; text-align:center; border-top:3px solid #e21306;}
+.industry_list_new_part2t ul li > a{ display:block; width:100%; height:100%; padding:0; overflow:hidden; position:relative;}
+.industry_list_new_part2t ul li > a em{ display:block; margin:0 auto; width:30px; height:20px; border-top:3px solid #b5b5b5; display:none;}
+.industry_list_new_part2t ul li > a p{ font-size:16px; color:#464646; width:100%; text-align:center; margin:0 auto; height:34px; line-height:34px; background:url(../images/icon_bb.png) repeat; position:absolute; left:0; bottom:0; z-index:2; }
+.industry_list_new_part2t ul li > a img { width:100%; height:100%; position:absolute; left:0; top:0; z-index:1; }
+.industry_list_new_part2t ul li:hover{ border:1px solid #e21306; border-top:3px solid #e21306;}
+.industry_list_new_part2t ul li.hover > a em{ border-top:3px solid #fff;}
+.industry_list_new_part2t ul li:hover > a p{ color:#464646;}
+
+.industry_list_new_part22 ul li{border:0; background:none;}
+.industry_list_new_part22 ul li:hover{border:0; background:none;}
+
+.industry_list_new_part22 ul li > a{border:1px solid #e1e1e1;}
+.industry_list_new_part22 ul li > a:hover{ border:1px solid #fa2700; background:#fa2700;}
+
+.industry_list_new_part22 ul li:hover > a p{ color:#464646;}
+.industry_list_new_part2 ul li:hover > a em{ border-top:3px solid #b5b5b5;}
+
+.industry_list_new_part22 ul li > a:hover em{ border-top:3px solid #fff;}
+.industry_list_new_part22 ul li > a:hover p{ color:#fff;}
+
+
+
+.industry_list_new_part3{ width:100%; overflow:hidden; padding:60px 0; background:#f8f7f7;}
+.industry_list_new_part3_l{ float:left; width:50%; position:relative; left:1px; margin-left:-1px;}
+.industry_list_new_part3_l img{ width:70%; margin-left:20%; height:auto;}
+.industry_list_new_part3_r{ float:left; width:46%; position:relative; left:1px; margin-left:-1px; padding-top:86px;}
+.industry_list_new_part3_r h4{ line-height:70px; font-size:30px; color:#474747; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-weight:normal;}
+.industry_list_new_part3_r p{ line-height:28px; font-size:14px; color:#464646;}
+.industry_list_new_part3_link{ padding-top:15px;}
+.industry_list_new_part3_link_l{ color:#000000; font-size:14px; padding-left:24px; background:url(../images/ind_new_img8.png) no-repeat left center; line-height:36px; margin-right:40px;}
+.industry_list_new_part3_link_l:hover{ color:#fa2b13; background:url(../images/ind_new_img6.png) no-repeat left center;}
+.industry_list_new_part3_link_r{ color:#000000; font-size:14px; padding-left:24px; background:url(../images/ind_new_img8.png) no-repeat left center; line-height:36px;}
+.industry_list_new_part3_link_r:hover{ color:#fa2b13; background:url(../images/ind_new_img6.png) no-repeat left center;}
+
+.ico_topbox{ width:100%; height:auto; overflow:hidden;}
+.ilnp{ float:left; width:96px; height:32px; margin-right:20px; margin-bottom:10px; padding-top:64px; border:2px solid #F1F1F1; color:#005BAC; text-align:center;}
+.ilnp:hover{ color:#E70010;}
+.ilnp1{background:url(../images/ilnp1.png) center 20px no-repeat;}
+.ilnp1:hover{background:url(../images/ilnp1_on.png) center 20px no-repeat;}
+.ilnp2{background:url(../images/ilnp2.png) center 20px no-repeat;}
+.ilnp2:hover{background:url(../images/ilnp2_on.png) center 20px no-repeat;}
+.ilnp3{background:url(../images/ilnp3.png) center 20px no-repeat;}
+.ilnp3:hover{background:url(../images/ilnp3_on.png) center 20px no-repeat;}
+.ilnp4{background:url(../images/ilnp4.png) center 20px no-repeat;}
+.ilnp4:hover{background:url(../images/ilnp4_on.png) center 20px no-repeat;}
+.ilnp5{background:url(../images/ilnp5.png) center 20px no-repeat;}
+.ilnp5:hover{background:url(../images/ilnp5_on.png) center 20px no-repeat;}
+
+
+.industry_list_new_part3_link_rr{ color:#0072c5; font-size:14px; padding-left:24px; background:url(../images/ind_new_img7.png) no-repeat left center; line-height:36px; margin-right:40px;}
+
+.industry_list_new_part3_link_rrr{ color:#464646; font-size:14px; padding-left:33px; background:url(../images/iconn.png) no-repeat left center; line-height:36px; display:inline-block;}
+.industry_list_new_part3_link_rrr a{ color:#fb2b2b; text-decoration:underline; margin-left:6px;}
+
+.industry_list_new_part4{ width:100%; overflow:hidden; padding:60px 0 0; background:none;}
+.industry_list_new_part4_part{ width:50%; float:left; margin-left:-1px; left:1px; position:relative; text-align:center;}
+.industry_list_new_part4_part img{ display:block; margin-bottom:36px; margin:0 auto;}
+.industry_list_new_part4_part h4{ line-height:52px; font-size:24px; color:#464646;}
+.industry_list_new_part4_part p{ line-height:24px; color:#464646; margin-bottom:35px; height:98px; overflow:hidden;}
+.industry_list_new_part4_part a{ line-height:22px; display:inline-block; padding-left:24px; background:url(../images/ind_new_img8.png) no-repeat left center; color:#000;}
+.industry_list_new_part4_part a:hover{ color:#fa2b13;}
+.industry_list_new_part4_part p a{ padding-left:0; background:none;}
+
+
+.indus_outer{ width:760px; height:210px; padding-left:40px; background:#fff; position:fixed; left:50%; margin-left:-400px; top:50%; z-index:900302; border:1px solid #ccc; display:none;}
+.indus_outer a{ width:344px; height:86px; border:1px solid #e6e6e6; float:left; position:relative; left:1px; margin-right:24px;}
+.indus_outer em{display: block; width: 60px; height: 60px; margin-bottom: 20px; float:right; background:url(../images/close_new.jpg) no-repeat;}
+.indus_outer a img { width:100%; height:100%;}
+.indus_bg{ width:100%; position:fixed; left:0; top:0; z-index:900301; height:8000px; background:url(../images/png_bg.png) repeat; display:none;}
+
+.industry_list_new_part4_l{ width:50%; float:left;}
+.industry_list_new_part4 .industry_list_new_part3_r{ padding-top:0; text-align:center;}
+.industry_list_new_part4 .industry_list_new_part3_link_r{ margin-right:85px; display:inline-block;}
+.industry_list_new_part4 .industry_list_new_part3_link_r2{ margin-right:0;}
+.industry_list_new_part1_article{ margin-bottom:0;}
+
+.industry_list_new_part4 .industry_list_new_part3_r p{ text-align:left; height:112px; overflow:hidden;}
+
+.industry_list_new_part4{ padding:120px 0 100px;}
+.industry_list_new_part3_r h4{ margin-bottom:30px;}
+.industry_list_new_part4 .industry_list_new_part3_r h4{ text-align:center;}
+
+
+.search_pro_list h4 a{ line-height:40px; font-size:14px; color:#0065c7; font-weight:normal;}
+.search_pro_list h4 a em{ color:#fa2b21;}
+.search_pro_list p{ line-height:22px; color:#404040; margin-bottom:12px; width:80%;}
+.search_pro_list li{ padding:16px 0; border-bottom:1px solid #dcdcdc;}
+.search_pro_list li > a{ font-size:12px; color:#000;}
+.search_pro_list li > a:hover{color:#fa2b21;}
+
+.search_pro_l{ font-size:16px; color:#000;} 
+.search_pro_r{ float:right;}
+
+.search_pro_r_l{ width:316px; height:38px; background:#fff; border:1px solid #dcdcdc; float:right;transition:all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;}
+.search_pro_r_l input{ border:0; background:none; line-height:38px; height:38px; color:#a2a2a2; width:294px; margin-left:10px;}
+.search_pro_r_r{ border:0; width:78px; height:40px; background:#016bc1; font-size:16px; color:#fff; float:right}
+.search_main ul{ padding-bottom:50px;}
+
+.search_main > h4{ font-size:28px; color:#000000; font-weight:normal; margin-bottom:40px; line-height:70px; position:relative; text-align:center;}
+.search_main > h4 em{ display:block; width:90px; height:1px; position:absolute; top:0; left:50%; margin-left:-45px; background:#898989;}
+.search_main > h4 span{ display:block; width:90px; height:1px; position:absolute; bottom:0; left:50%; margin-left:-45px; background:#898989;}
+
+
+
+
+.car_oil_wrap .car_oil{ width:100%; height:3223px; position:relative; margin:0 auto;}
+.car_oil_wrap .car_oil_part1{width:50%; height:18.74%; left:0; top:0;}
+.car_oil_wrap .car_oil_part2{width:50%; height:18.74%; left:50%; top:0;}
+.car_oil_wrap .car_oil_part3{width:50%; height:20.881%; left:0; top:18.74%;}
+.car_oil_wrap .car_oil_part4{width:50%; height:10.549%; left:50%; top:18.74%;}
+.car_oil_wrap .car_oil_part5{width:50%; height:15.327%; left:50%; top:29.289%;}
+.car_oil_wrap .car_oil_part6{width:50%; height:10.518%; left:0; top:39.652%;}
+.car_oil_wrap .car_oil_part7{width:50%; height:20.881%; left:0; top:50.170%;}
+.car_oil_wrap .car_oil_part8{width:50%; height:17.84%; left:50%; top:44.616%;}
+.car_oil_wrap .car_oil_part9{width:50%; height:18.740%; left:50%; top:62.488%;}
+.car_oil_wrap .car_oil_part10{width:50%; height:10.176%; left:0; top:71.051%;}
+.car_oil_wrap .car_oil_part12{width:50%; height:18.771%; left:0; top:81.228%;}
+.car_oil_wrap .car_oil_part13{width:50%; height:18.771%; left:50%; top:81.228%;}
+
+
+.car_oil_wrap .car_oil_half_box_l{ width:50%; position:relative; float:left; height:100%;}
+.car_oil_wrap .car_oil_half_box_r{ width:50%; margin-left:-1px; position:relative; left:1px; float:left; height:100%; background:#181818;}
+
+.car_oil_wrap .car_oil_part1,.car_oil_wrap .car_oil_part2,.car_oil_wrap .car_oil_part3,.car_oil_wrap .car_oil_part4,.car_oil_wrap .car_oil_part5,.car_oil_wrap .car_oil_part6,.car_oil_wrap .car_oil_part7,.car_oil_wrap .car_oil_part8,.car_oil_wrap .car_oil_part9,.car_oil_wrap .car_oil_part10,.car_oil_wrap .car_oil_part11,.car_oil_wrap .car_oil_part12,.car_oil_wrap .car_oil_part13{ position:absolute; overflow:hidden;}
+
+.car_oil_wrap .car_oil_part1 img,.car_oil_wrap .car_oil_part2 img,.car_oil_wrap .car_oil_part3 img,.car_oil_wrap .car_oil_part4 img,.car_oil_wrap .car_oil_part5 img,.car_oil_wrap .car_oil_part6 img,.car_oil_wrap .car_oil_part7 img,.car_oil_wrap .car_oil_part8 img,.car_oil_wrap .car_oil_part9 img,.car_oil_wrap .car_oil_part10 img,.car_oil_wrap .car_oil_part11 img,.car_oil_wrap .car_oil_part12 img,.car_oil_wrap .car_oil_part1 img,.car_oil_wrap .car_oil_part13 img,.car_oil_wrap .car_oil_half_box{ width:100%; height:100%; position:absolute; left:0; top:0;}
+
+.car_oil_wrap .car_oil_part1 .car_oil_txt{ width:266px; top:174px; left:50%; margin-left:-133px;}
+.car_oil_wrap .car_oil_part2 .car_oil_txt{ left:50%; margin-left:-215px; top:50%; margin-top:-140px; width:290px;}
+.car_oil_wrap .car_oil_part3 .car_oil_txt{ left:50%; margin-left:-215px; top:50%; margin-top:-140px; width:290px;}
+.car_oil_wrap .car_oil_part4 .car_oil_txt{ left:100px; margin-left:0; top:60px; margin-top:0; width:370px;}
+.car_oil_wrap .car_oil_part4 .car_oil_txt .car_oil_txt_main{ text-align:center;}
+.car_oil_wrap .car_oil_part5 .car_oil_txt{ width:376px; top:174px; left:50%; margin-left:-204px;}
+.car_oil_wrap .car_oil_part6 .car_oil_txt{ width:376px; top:110px; left:50%; margin-left:-188px;}
+.car_oil_wrap .car_oil_part7 .car_oil_txt{ left:50%; margin-left:-165px; top:50%; margin-top:-140px; width:320px;}
+.car_oil_wrap .car_oil_part8 .car_oil_txt{ left:50%; margin-left:-215px; top:50%; margin-top:-140px; width:290px;}
+.car_oil_wrap .car_oil_part10 .car_oil_txt h4{ font-size:36px;}
+.car_oil_wrap .car_oil_part10 .car_oil_txt{ left:50%; margin-left:-274px; top:50%; margin-top:-80px; width:560px;}
+.car_oil_wrap .car_oil_part9 .car_oil_txt{ left:50%; margin-left:-165px; top:50%; margin-top:-140px; width:320px;}
+.car_oil_wrap .car_oil_part12 .car_oil_txt{ left:50%; margin-left:-224px; top:50%; margin-top:-138px; width:312px;}
+.car_oil_wrap .car_oil_part13 .car_oil_txt{ width:308px; top:174px; left:50%; margin-left:-138px;}
+.car_oil_wrap .car_oil_part13 .car_oil_half_box_r{ background:#0052c8;}
+
+.car_oil_wrap .car_oil_txt{ position:absolute;}
+.car_oil_wrap .car_oil_txt_header{ padding:22px 0; position:relative; text-align:center;}
+.car_oil_wrap .car_oil_txt h4{ font-size:50px; color:#fff; text-align:center; margin-bottom:8px;}
+.car_oil_wrap .car_oil_txt h5{ font-size:16px; color:#fff; text-transform:uppercase; padding:4px 8px; text-align:center; display:inline-block; margin:0 auto; letter-spacing:2px;}
+.car_oil_wrap .car_oil_txt span{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; top:0; left:50%; margin-left:-31px;}
+.car_oil_wrap .car_oil_txt em{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; bottom:0; left:50%; margin-left:-31px;}
+.car_oil_wrap .car_oil_txt_main{ padding-top:26px; line-height:26px; font-size:14px; color:#ffffff;}
+
+.car_oil_wrap .hasBorder{ border:1px solid #fff; padding:72px;}
+.car_oil_wrap .redBorder span,.car_oil_wrap .redBorder em{ background:#f82915; display:none;}
+.car_oil_part13{}
+.car_oil_part13 .car_oil_wrap .redBorder span,.car_oil_part13 .car_oil_wrap .redBorder em{ background:#f82915; display:block;}
+
+
+.car_oil_wrap .hasBackground h5{ background:#fff; color:#000;}
+.car_oil_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+.car_oil_wrap .hasBackgroundRed_white h5{ background:#e60b11; color:#fff;}
+.car_oil_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+
+.car_oil_wrap .hasTxtColorBlack h4{ color:#000;}
+
+.car_oil_wrap .colorYel h5{ color:#e3c6ad;}
+
+.car_oil_wrap .ry_arr{ width:0; height:0; border:7px solid transparent; border-right:7px solid #181818; position:absolute; left:-14px; top:50%; margin-top:-7px;}
+.car_oil_wrap .ry_arr_blue{ border-right:7px solid #0052c8;}
+
+
+
+.grease_wrap .car_oil{ width:100%; height:1617px; position:relative; margin:0 auto; overflow:hidden;}
+.grease_wrap .car_oil_part1{width:50%; height:37.414%; left:0; top:0;}
+.grease_wrap .car_oil_part2{width:50%; height:30.55%; left:50%; top:0;}
+.grease_wrap .car_oil_part3{width:50%; height:41.62%; left:0; top:37.414%;}
+
+.grease_wrap .car_oil_part4{width:50%; height:21.026%; left:50%; top:30.55%;}
+.grease_wrap .car_oil_part5{width:50%; height:27.829%; left:50%; top:51.576%;}
+.grease_wrap .car_oil_part6{width:50%; height:20.964%; left:0; top:79.035%;}
+.grease_wrap .car_oil_part7{width:50%; height:20.964%; left:50%; top:79.035%;}
+
+
+.grease_wrap .car_oil_half_box_l{ width:50%; position:relative; float:left; height:100%;}
+.grease_wrap .car_oil_half_box_r{ width:50%; margin-left:-1px; position:relative; left:1px; float:left; height:100%; background:#181818;}
+
+.grease_wrap .car_oil_part1,.grease_wrap .car_oil_part2,.grease_wrap .car_oil_part3,.grease_wrap .car_oil_part4,.grease_wrap .car_oil_part5,.grease_wrap .car_oil_part6,.grease_wrap .car_oil_part7,.grease_wrap .car_oil_part8,.grease_wrap .car_oil_part9,.grease_wrap .car_oil_part10,.grease_wrap .car_oil_part11,.grease_wrap .car_oil_part12,.grease_wrap .car_oil_part13{ position:absolute; overflow:hidden;}
+
+.grease_wrap .car_oil_part1 img,.grease_wrap .car_oil_part2 img,.grease_wrap .car_oil_part3 img,.grease_wrap .car_oil_part4 img,.grease_wrap .car_oil_part5 img,.grease_wrap .car_oil_part6 img,.grease_wrap .car_oil_part7 img,.grease_wrap .car_oil_part8 img,.grease_wrap .car_oil_part9 img,.grease_wrap .car_oil_part10 img,.grease_wrap .car_oil_part11 img,.grease_wrap .car_oil_part12 img,.grease_wrap .car_oil_part1 img,.grease_wrap .car_oil_part13 img,.car_oil_half_box{ width:100%; height:100%; position:absolute; left:0; top:0;}
+
+.grease_wrap .car_oil_part1 .car_oil_txt{ width:358px; top:174px; left:50%; margin-left:-179px;}
+.grease_wrap .car_oil_part2 .car_oil_txt{ left:50%; margin-left:-204px; top:50%; margin-top:-80px; width:368px;}
+.grease_wrap .car_oil_part3 .car_oil_txt{ left:50%; margin-left:-254px; top:50%; margin-top:-140px; width:369px;}
+.grease_wrap .car_oil_part4 .car_oil_txt{ left:50%; margin-left:-194px; top:50%; margin-top:-90px; width:380px;}
+.grease_wrap .car_oil_part4 .car_oil_txt .car_oil_txt_main{ text-align:center;}
+.grease_wrap .car_oil_part5 .car_oil_txt{ left:50%; margin-left:-190px; top:50%; margin-top:-70px; width:350px;}
+.grease_wrap .car_oil_part6 .car_oil_txt{ left:50%; margin-left:-190px; top:50%; margin-top:-70px; width:370px;}
+.grease_wrap .car_oil_part7 .car_oil_txt{ left:50%; margin-left:-180px; top:50%; margin-top:-70px; width:370px;}
+
+.grease_wrap .car_oil_txt{ position:absolute;}
+.grease_wrap .car_oil_txt_header{ padding:22px 0; position:relative; text-align:center;}
+.grease_wrap .car_oil_txt h4{ font-size:40px; color:#fff; text-align:center; margin-bottom:8px;}
+.grease_wrap .car_oil_txt h5{ font-size:16px; color:#fff; text-transform:uppercase; padding:4px 8px; text-align:center; display:inline-block; margin:0 auto; letter-spacing:2px;}
+.grease_wrap .car_oil_txt span{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; top:0; left:50%; margin-left:-31px;}
+.grease_wrap .car_oil_txt em{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; bottom:0; left:50%; margin-left:-31px;}
+.grease_wrap .car_oil_txt_main{ padding-top:26px; line-height:26px; font-size:14px; color:#ffffff;}
+
+.grease_wrap .hasBorder{ border:1px solid #fff; padding:72px;}
+.grease_wrap .redBorder span,.grease_wrap .redBorder em{ background:#f82915;}
+
+.grease_wrap .hasBackground h5{ background:#fff; color:#000;}
+.grease_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+.grease_wrap .hasBackgroundRed_white h5{ background:#e60b11; color:#fff;}
+.grease_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+
+.grease_wrap .hasTxtColorBlack h4{ color:#000;}
+
+.grease_wrap .colorYel h5{ color:#e3c6ad;}
+.grease_wrap .colorblack h5{ color:#000;}
+.grease_wrap .colorwhite h5{ color:#fff;}
+
+.grease_wrap .car_oil_part2 .car_oil_txt h4{ font-size:50px;}
+.grease_wrap .car_oil_part4 .car_oil_txt h4{ font-size:40px;}
+.grease_wrap .car_oil_part5 .car_oil_txt h4{ font-size:40px;}
+.grease_wrap .car_oil_part6 .car_oil_txt h4{ font-size:40px;}
+
+.grease_wrap .car_oil_part4 .car_oil_half_box_l{float:right;}
+
+.grease_wrap .ry_arr{ width:0; height:0; border:7px solid transparent; border-right:7px solid #181818; position:absolute; left:-12px; top:50%; margin-top:-7px;}
+
+
+.maintenance_wrap .car_oil{ width:100%; height:1550px; position:relative; margin:0 auto; overflow:hidden;}
+.maintenance_wrap .car_oil_part1{width:50%; height:34.58%; left:0; top:0;}
+.maintenance_wrap .car_oil_part2{width:50%; height:39.445%; left:50%; top:0;}
+.maintenance_wrap .car_oil_part3{width:50%; height:43.419%; left:0; top:34.58%;}
+.maintenance_wrap .car_oil_part4{width:50%; height:39.032%; left:50%; top:39.445%;}
+.maintenance_wrap .car_oil_part5{width:50%; height:21.935%; left:0; top:78.024%;}
+.maintenance_wrap .car_oil_part6{width:50%; height:21.935%; left:50%; top:78.024%;}
+
+
+.maintenance_wrap .car_oil_half_box_l{ width:50%; position:relative; float:left; height:100%;}
+.maintenance_wrap .car_oil_half_box_r{ width:50%; margin-left:-1px; position:relative; left:1px; float:left; height:100%; background:#181818;}
+
+.maintenance_wrap .car_oil_part1,.maintenance_wrap .car_oil_part2,.maintenance_wrap .car_oil_part3,.maintenance_wrap .car_oil_part4,.maintenance_wrap .car_oil_part5,.maintenance_wrap .car_oil_part6,.maintenance_wrap .car_oil_part7,.maintenance_wrap .car_oil_part8,.maintenance_wrap .car_oil_part9,.maintenance_wrap .car_oil_part10,.maintenance_wrap .car_oil_part11,.maintenance_wrap .car_oil_part12,.maintenance_wrap .car_oil_part13{ position:absolute; overflow:hidden;}
+
+.maintenance_wrap .car_oil_part1 img,.maintenance_wrap .car_oil_part2 img,.maintenance_wrap .car_oil_part3 img,.maintenance_wrap .car_oil_part4 img,.maintenance_wrap .car_oil_part5 img,.maintenance_wrap .car_oil_part6 img,.maintenance_wrap .car_oil_part7 img,.maintenance_wrap .car_oil_part8 img,.maintenance_wrap .car_oil_part9 img,.maintenance_wrap .car_oil_part10 img,.maintenance_wrap .car_oil_part11 img,.maintenance_wrap .car_oil_part12 img,.maintenance_wrap .car_oil_part1 img,.maintenance_wrap .car_oil_part13 img,.maintenance_wrap .car_oil_half_box{ width:100%; height:100%; position:absolute; left:0; top:0;}
+
+.maintenance_wrap .car_oil_part1 .car_oil_txt{ width:358px; top:174px; left:50%; margin-left:-179px;}
+.maintenance_wrap .car_oil_part2 .car_oil_txt{ left:50%; margin-left:-144px; top:50%; margin-top:-140px;}
+.maintenance_wrap .car_oil_part3 .car_oil_txt{ left:50%; margin-left:-224px; top:50%; margin-top:-140px; width:430px;}
+.maintenance_wrap .car_oil_part4 .car_oil_txt{ left:50%; margin-left:-154px; top:50%; margin-top:-120px; width:294px;}
+.maintenance_wrap .car_oil_part4 .car_oil_txt .car_oil_txt_main{ text-align:center;}
+.maintenance_wrap .car_oil_part5 .car_oil_txt{ left:50%; margin-left:-190px; top:50%; margin-top:-70px; width:390px;}
+.maintenance_wrap .car_oil_part6 .car_oil_txt{ left:50%; margin-left:-190px; top:50%; margin-top:-70px; width:390px;}
+
+
+.maintenance_wrap .car_oil_txt{ position:absolute;}
+.maintenance_wrap .car_oil_txt_header{ padding:22px 0; position:relative; text-align:center;}
+.maintenance_wrap .car_oil_txt h4{ font-size:50px; color:#fff; text-align:center; margin-bottom:8px;}
+.maintenance_wrap .car_oil_txt h5{ font-size:16px; color:#fff; text-transform:uppercase; padding:4px 8px; text-align:center; display:inline-block; margin:0 auto; letter-spacing:2px;}
+.maintenance_wrap .car_oil_txt span{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; top:0; left:50%; margin-left:-31px;}
+.maintenance_wrap .car_oil_txt em{ display:block; width:62px; height:1px; background:#fff; overflow:hidden; line-height:1px; font-size:1px; position:absolute; bottom:0; left:50%; margin-left:-31px;}
+.maintenance_wrap .car_oil_txt_main{ padding-top:26px; line-height:26px; font-size:14px; color:#ffffff;}
+
+.maintenance_wrap .hasBorder{ border:1px solid #fff; padding:72px;}
+.maintenance_wrap .redBorder span,.maintenance_wrap .redBorder em{ background:#f82915;}
+
+.maintenance_wrap .hasBackground h5{ background:#fff; color:#000;}
+.maintenance_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+.maintenance_wrap .hasBackgroundRed_white h5{ background:#e60b11; color:#fff;}
+.maintenance_wrap .hasBackgroundRed h5{ background:#e60b11; color:#ffed51;}
+
+.maintenance_wrap .hasTxtColorBlack h4{ color:#000;}
+
+.maintenance_wrap .colorYel h5{ color:#e3c6ad;}
+.maintenance_wrap .colorblack h5{ color:#000;}
+
+.maintenance_wrap .car_oil_part2 .car_oil_txt h4{ font-size:40px;}
+.maintenance_wrap .car_oil_part4 .car_oil_txt h4{ font-size:40px;}
+.maintenance_wrap .car_oil_part5 .car_oil_txt h4{ font-size:40px;}
+.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:40px;}
+
+.maintenance_wrap .car_oil_part4 .car_oil_half_box_l{float:right;}
+
+.maintenance_wrap .ry_arr{ width:0; height:0; border:7px solid transparent; border-right:7px solid #181818; position:absolute; left:-14px; top:50%; margin-top:-7px;}
+.maintenance_wrap .ry_arr_blue{ border-right:7px solid #0052c8;}
+.maintenance_wrap .ry_rightArr{ left:auto; right:-14px; border-right:7px solid transparent; border-left:7px solid #181818;}
+
+
+
+.ry_about_index{ width:100%; position:relative;}
+.ry_about_index > img{ width:100%; height:auto;}
+.ry_about_index .ry_about_index_txt{ top:120px; left:148px; position:absolute; color:#fff;}
+.ry_about_index .ry_about_index_txt h4{ font-size:36px; font-weight:normal; line-height:72px;}
+.ry_about_index .ry_about_index_txt h4 a{color:#fff;}
+.ry_about_index .ry_about_index_txt h4 a:hover{color:#fa2b23;}
+.ry_about_index .ry_about_index_txt p{ font-size:14px; line-height:28px;}
+
+
+.ry_about_part2{ width:100%; margin-bottom:30px;}
+.ry_about_part2_l{ width:54%; float:left; position:relative;}
+.ry_about_part2_l > img{ width:100%; height:auto;}
+.ry_about_part2_l .ry_about_part2_l_txt{ top:30px; left:36px; position:absolute; color:#fff; padding:22px 38px; background:url(../images/about_img11.png) repeat; width:250px; height:346px;}
+.ry_about_part2_l .ry_about_part2_l_txt h4{ font-size:22px; font-weight:normal; line-height:46px; margin-bottom:18px;}
+.ry_about_part2_l .ry_about_part2_l_txt p{ font-size:12px; line-height:24px; height:120px; overflow:hidden;}
+.ry_about_part2_l .ry_about_part2_l_txt a{ color:#fff;}
+.ry_about_part2_l .ry_about_part2_l_txt a:hover{ color:#0069c7;}
+.ry_about_part2_l .ry_about_part2_l_txt > a{ font-size:24px; font-family:"宋体"; position:relative; top:18px;}
+.ry_about_part2_l .ry_about_part2_l_txt > a:hover{ color:#0069c7;}
+
+.ry_about_part2_r{ width:46%; float:left; position:relative; margin-left:-1px; left:1px;}
+.ry_about_part2_r .ry_about_part2_r_top{ width:100%; height:244px; posiion:relative;}
+.ry_about_part2_r .ry_about_part2_r_top > img{ width:100%; height:auto;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt{ top:0; left:0; position:absolute; color:#fff; padding:24px 5%; background:url(../images/about_img12.png) repeat; width:40%; height:196px;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt h4{ font-size:22px; font-weight:normal; line-height:54px;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt p{ font-size:12px; line-height:22px;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt a{ color:#fff;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt a:hover{color:#fa2b23;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt > a{ font-size:24px; font-family:"宋体"; position:relative; top:18px;}
+.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt > a:hover{ color:#fa2b23;}
+
+.ry_about_part2_r .ry_about_part2_r_bottom{ width:100%; height:249px; posiion:relative; text-align:center; padding-top:28px;}
+.ry_about_part2_r .ry_about_part2_r_bottom > img{ width:100%; height:auto;}
+.ry_about_part2_r .ry_about_part2_r_bottom h4{ font-size:22px; font-weight:normal; line-height:76px; color:#000;}
+.ry_about_part2_r .ry_about_part2_r_bottom p{ font-size:12px; line-height:24px; color:#898989;}
+.ry_about_part2_r .ry_about_part2_r_bottom a{ color:#000;}
+.ry_about_part2_r .ry_about_part2_r_bottom a:hover{ color:#fa2b23;}
+.ry_about_part2_r .ry_about_part2_r_bottom > a{ font-size:24px; font-family:"宋体"; position:relative; top:18px;}
+.ry_about_part2_r .ry_about_part2_r_bottom > a:hover{ color:#fa2b23;}
+
+.ry_about_part3{ width:100%; margin-bottom:50px;}
+.ry_about_part3_l{ width:40%; height:425px; background:url(../images/about_img10.jpg) no-repeat center; float:left; position:relative;}
+.ry_about_part3_r{ width:60%; height:425px; float:right; margin-left:-1px; left:1px;}
+.ry_about_part3_r img{ width:100%;}
+.ry_about_part3_l_txt{ position:absolute; top:80px; left:30px; width:440px;}
+.ry_about_part3_l_txt span{ font-size:36px; color:#a0c8e3; font-weight:normal; font-family:Arial; line-height:36px; display:block;}
+.ry_about_part3_l_txt h4{ font-size:30px; color:#0069c7; font-weight:normal; line-height:46px;}
+.ry_about_part3_l_txt h4 a{ color:#0069c7;}
+.ry_about_part3_l_txt h4 a:hover{ color:#fa2b23;}
+.ry_about_part3_l_txt em{ color:#cad9ef; font-size:12px; display:block;}
+.ry_about_part3_l_txt > a{ font-size:24px; font-family:"宋体"; position:relative; top:18px;}
+.ry_about_part3_l_txt > a:hover{ color:#fa2b23;}
+
+.ry_about_part4_l{ width:664px; float:left; margin-right:12px;}
+.ry_about_part4_r{ width:582px; float:left;}
+
+.ry_about_part4_l_top{ margin-bottom:5px; overflow:hidden;}
+.ry_about_part4_l_top_l{ width:329px; height:247px; float:left; margin-right:5px; position:relative;}
+
+.ry_about_part4_l_top_l span{ display:block; width:118px; height:34px; border:1px solid #808083; color:#fff; text-align:center; line-height:34px; position:absolute; left:50%; margin-left:-59px; bottom:20px; background:url(../images/about_img13.png) repeat;}
+.ry_about_part4_l_top_l a:hover span{ background:#fa2b23; border:1px solid #fff;}
+
+.ry_about_part4_l_top_r{ width:329px; height:247px; float:left; position:relative;}
+.ry_about_part4_l_top_r span{ display:block; width:118px; height:34px; border:1px solid #808083; color:#fff; text-align:center; line-height:34px; position:absolute; left:50%; margin-left:-59px; bottom:20px; background:url(../images/about_img13.png) repeat;}
+.ry_about_part4_l_top_r a:hover span{ background:#fa2b23; border:1px solid #fff;}
+
+.ry_about_part4_l_top_box{ width:578px; height:434px; position:relative; float:right;}
+.ry_about_part4_l_top_box span{ display:block; width:118px; height:34px; border:1px solid #808083; color:#fff; text-align:center; line-height:34px; position:absolute; left:50%; margin-left:-59px; bottom:20px; background:url(../images/about_img13.png) repeat;}
+.ry_about_part4_l_top_box a:hover span{ background:#fa2b23; border:1px solid #fff;}
+.ry_about_part4_l_top_box > a  > img{ width:100%;}
+
+.ry_about_part4_r_top{ width:100%; height:210px; posiion:relative; text-align:center; padding:20px 0;}
+.ry_about_part4_r_top > img{ width:100%; height:auto;}
+.ry_about_part4_r_top h4{ font-size:24px; font-weight:normal; line-height:28px; color:#000; margin-bottom:14px;}
+.ry_about_part4_r_top h5{ font-size:16px; color:#616161; font-weight:normal; color:#616161;}
+.ry_about_part4_r_top p{ font-size:12px; line-height:24px; color:#616161;}
+.ry_about_part4_r_top a{ color:#000;}
+.ry_about_part4_r_top a:hover{ color:#fa2b23;}
+.ry_about_part4_r_top > a{ font-size:24px; font-family:"宋体"; position:relative; top:18px; color:#0069c7;}
+.ry_about_part4_r_top > a:hover{ color:#fa2b23;}
+
+.ry_about_part4_l_top_l img,.ry_about_part4_l_top_r img{ width:100%;}
+
+.ry_about_part4_r_bottom{ width:100%; height:436px; position:relative; float:right;}
+.ry_about_part4_r_bottom span{ display:block; width:118px; height:34px; border:1px solid #808083; color:#fff; text-align:center; line-height:34px; position:absolute; left:50%; margin-left:-59px; bottom:20px; background:url(../images/about_img13.png) repeat;}
+.ry_about_part4_r_bottom a:hover span{ background:#fa2b23; border:1px solid #fff;}
+.ry_about_part4_r_bottom > a > img{ width:100%;}
+
+.ry_about_part6{ width:100%; height:auto; position:relative; margin-bottom:110px;}
+.ry_about_part6 > img{ width:100%; height:auto;}
+.ry_about_part6 a{ color:#fff; position:absolute; right:48px; bottom:65px; font-size:30px; text-align:right;}
+.ry_about_part6 a > i{ font-size:24px; font-family:"宋体"; position:relative; top:18px; color:#fff;}
+.ry_about_part6 a:hover{ color:#fa2b23;}
+.ry_about_part6 a:hover > i{ color:#fa2b23;}
+
+.ry_about_part7 li{ float:left; width:13.5%; padding:0 3%; border-right:1px solid #e8e8e8;}
+.ry_about_part7 li.last{ border:0;}
+.ry_about_part7 li h4{ margin-bottom:16px;}
+.ry_about_part7 li h4 a{ line-height:36px; color:#000; font-size:16px;}
+.ry_about_part7 li p{ font-size:12px; color:#383838; line-height:24px;}
+
+.ry_scroll_box{ width:90%; margin:0 auto; overflow:hidden; height:100%; padding-bottom:100px; position:relative;}
+.ry_scroll_box ul{ width:8000%; position:relative;;}
+.ry_scroll_box li{ width:494px; height:272px; float:left; position:relative; z-index:100;}
+.ry_scroll_box li.active{ z-index:200;}
+.ry_scroll_box li a{ display:block; width:100%; height:100%; position:relative; color:#000000; font-size:18px;}
+.ry_scroll_box li img{ width:100%; height:100%;}
+.ry_scroll_box li span{ display:block; position:absolute; left:0; top:0; background:url(../images/ry_play_menu.png) no-repeat center; width:100%; height:100%;}
+.ry_about_part5 p{ text-align:center; display:none;}
+.ry_scroll_box li.active p{ display:block;}
+
+.ry_about_part5{ position:relative;}
+.ry_about_part5 > img{ width:100%; height:auto; position:absolute; top:0; left:0;}
+.ry_scroll_wrap{ position:relative; margin-top:-40px; padding-bottom:20px;}
+.ry_scrol_bg{ background:url(../images/ry_bg_line.png) repeat-x left bottom;}
+.ry_Scroll_l{ background:url(../images/left-right01.png) no-repeat center; width:5%; height:49px; display:block; position:absolute; left:0; height:100%; top:0;}
+.ry_Scroll_l:hover{ background:url(../images/left-right0222.png) no-repeat center;}
+.ry_Scroll_r{ background:url(../images/left-right0111.png) no-repeat center; width:5%; height:49px; display:block; position:absolute; right:0; height:100%; top:0;}
+.ry_Scroll_r:hover{ background:url(../images/left-right02.png) no-repeat center;}
+.ry_about_part5 p{ line-height:128px;}
+
+
+.ry_about_part4{ margin-bottom:20px;}
+.ry_about_part5_top{ position:relative; width:100%; height:auto;}
+.ry_about_part5_top > img{ width:100%; height:auto;}
+.ry_about_part5_top > h4{  line-height:210px; top:0; text-align:center; width:100%;}
+.ry_about_part5_top > h4 a{ font-size:30px; color:#0069c7; font-weight:normal;}
+
+.ry_video{ overflow:hidden; background:#f5f5f5; padding:70px 0;}
+.ry_video .ry_scroll_wrap{ margin-top:0;}
+.ry_video > h4{ font-size:40px; color:#2c2b2b; line-height:64px; font-weight:normal; margin-bottom:70px; overflow:hidden; text-align:center;}
+.ry_video > h4 a{ color:#2c2b2b;}
+.ry_video > h4 span{ text-transform:uppercase; font-size:20px; margin-left:18px; position:relative; top:0px;}
+
+.ry_video_t{ margin-bottom:20px;}
+
+.dhq_pro_online_list1 > h4{ font-size:40px; color:#2c2b2b; line-height:64px; font-weight:normal; margin-bottom:40px; overflow:hidden;}
+.dhq_pro_online_list1 > h4 a{ color:#2c2b2b; float:left;}
+.dhq_pro_online_list1 > h4 span{ text-transform:uppercase; font-size:20px; margin-left:18px; float:left; position:relative; top:10px;}
+
+.dhq_pro_online_list1_box{ width:99.5%; border:1px solid #c7c7c7; position:relative; padding:10px 0; margin-bottom:30px;}
+.dhq_pro_online_list1_box textarea{ width:96%; margin-left:2%; height:100%; height:402px; border:0; background:none;}
+.dhq_pro_online_list1_box span{ background:url(../images/meida_arr.jpg) no-repeat; width:40px; height:23px; display:block; position:absolute; top:-23px; left:10%;}
+
+.dhq_pro_online_list1 > input{ width:168px; height:38px; float:right; clear:right; border:0; font-size:22px; text-align:center; color:#fff; background:#026fca; margin-bottom:20px;}
+.clearBt .bdshare-button-style0-32{ clear:both;}
+
+
+.ry_banner_other{ width:100%; height:auto; position:relative; margin-bottom:60px;}
+.ry_banner_other img{ width:100%; height:auto;}
+.ry_banner_other .ry_media_ban_txt{ background:#0071cb; padding:46px; position:absolute; right:0; bottom:0; width:35%;}
+.ry_banner_other .ry_media_ban_txt h4{ line-height:64px; font-size:42px; color:#fff; font-weight:normal; margin-bottom:32px;}
+.ry_banner_other .ry_media_ban_txt p{ font-size:14px; color:#ffffff; line-height:22px;}
+
+.ry_media_part1{ width:100%; overflow:hidden; margin-bottom:40px;}
+.ry_media_part1 h4{ font-size:30px; color:#000; font-weight:normal; text-align:center; line-height:70px; position:relative; margin-bottom:40px;}
+.ry_media_part1 h4 a{ color:#000;}
+.ry_media_part1 h4 a:hover{ color:#fa2b23;}
+.ry_media_part1 h4 span{ display:block; position:absolute; top:0; left:50%; margin-left:-45px; height:1px; overflow:hidden; width:90px; background:#666666; font-size:0;}
+.ry_media_part1 h4 em{ display:block; position:absolute; bottom:0; left:50%; margin-left:-45px; height:1px; overflow:hidden; width:90px; background:#666666; font-size:0;}
+
+.ry_media_part1 ul{ width:107.5%;}
+.ry_media_part1 ul li{ width:20%; margin-right:3.6%; margin-left:0.5%; float:left; text-align:center; position:relative; left:0; top:0; margin-bottom:20px;}
+.ry_media_part1 ul li > a{ display:block; width:100%; height:auto; color:#0f0f0f; position:relative;}
+.ry_media_part1 ul li > a:hover{ color:#fa2b23;box-shadow:0 0 10px #000; *box-shadow:none;}
+.ry_media_part1 ul li a img{ width:100%; height:auto;}
+.ry_media_part1 ul li a:hover img{  position:relative;}
+.ry_media_part1 ul li p{ line-height:70px; text-align:center; height:70px; overflow:hidden;}
+.ry_media_part1 ul li a.down_link{ padding-left:34px; border-bottom:1px solid #000000; display:inline-block; width:auto; background:url(../images/ry_media_img18.png) no-repeat left center; line-height:26px; font-size:12px;position:relative; margin-right:20px; color:#0f0f0f;}
+.ry_media_part1 ul li a.down_link1{ padding-left:34px; border-bottom:1px solid #000000; display:inline-block; width:auto; background:url(../images/ry_media_img181.png) no-repeat left center; line-height:26px; font-size:12px;position:relative; color:#0f0f0f;}
+.ry_media_part1 ul li a.down_link:hover{ color:#fa2b23;}
+.ry_media_part1 ul li a.down_link1:hover{ color:#fa2b23;}
+.ry_media_part1 ul li em{ display:block; position:absolute; left:0; top:0; background:url(../images/ry_play_menu1.png) no-repeat center; width:100%;}
+
+.ry_video .ry_scroll_box,.ry_video .ry_scroll_wrap{ padding-bottom:0px;}
+
+.ry_honor_p5{ margin-bottom:60px;}
+
+.ry_honor_part2{ width:100%; overflow:hidden;}
+.ry_honor_part2 ul{ width:108%;}
+.ry_honor_part2 li{ width:27%; float:left; margin-right:6%; position:relative; overflow:hidden;}
+.ry_honor_part2 li a{ display:block; width:100%; height:100%; position:relative;}
+.ry_honor_part2 li a > img{ width:100%; height:100%; position:relative;}
+.ry_honor_part2 li a > span{ display:block; width:100%; height:100%; background:url(../images/about_img13.png) repeat; position:absolute; left:0; top:0;}
+.ry_honor_part2 li .ry_honor_txt{ height:96px; position:absolute; top:50%; margin-top:-48px; left:0; width:100%; text-align:center; padding-top:10px;}
+.ry_honor_part2 li .ry_honor_txt h4{ line-height:44px; font-size:24px; color:#ffffff;}
+.ry_honor_part2 li .ry_honor_txt span{ display:block; width:216px; height:20px; background:#fff; color:#000; line-height:20px; text-align:center; margin:0 auto; font-weight:bold; font-size:12px; font-family:Arial;}
+.ry_honor_txt em{ display:block; position:absolute; width:62px; height:1px; overflow:hidden; font-size:1px; background:#f82915; top:0; left:50%; margin-left:-31px; display:none;}
+.ry_honor_txt i{ display:block; position:absolute; width:62px; height:1px; overflow:hidden; font-size:1px; background:#f82915; bottom:0; left:50%; margin-left:-31px;display:none;}
+
+.ry_sociology_list{ width:100%; overflow:hidden;}
+.ry_sociology_list ul{ width:106.4%; overflow:hidden;}
+.ry_sociology_list li{ width:28.7%; margin-right:3%; border:3px solid #dadada; float:left; position:relative; padding-top:6px; padding-bottom:38px; margin-bottom:60px;}
+.ry_sociology_list1 li{ width:28.4%;}
+.ry_sociology_list li a.ry_sociology_imgLink{ width:96%; display:block; margin:0 auto; position:relative; color:#fff;}
+.ry_sociology_list li a.ry_sociology_imgLink img{ width:100%; height:100%;}
+.ry_sociology_list li a.ry_sociology_imgLink span{ position:absolute; left:0; bottom:0; width:106px; height:44px; background:#0075cb; font-size:36px; line-height:44px; font-family:Arial; text-align:center;}
+.ry_sociology_list li dl{ width:96%; padding-top:22px; padding-bottom:16px; margin:0 auto;}
+.ry_sociology_list dt{ line-height:30px; height:60px; overflow:hidden; margin-bottom:14px; overflow:hidden;}
+.ry_sociology_list1 dt{ height:auto;}
+.ry_sociology_list dt a{ color:#000; font-size:22px;}
+.ry_sociology_list dt a:hover{ color:#fa2b23;}
+.ry_sociology_list dd{ font-size:14px; color:#686868; line-height:22px; height:66px; overflow:hidden;}
+.ry_sociology_list1 dd{ height:auto;}
+.ry_sociology_list li a.in_more{ margin-left:2%;}
+
+.ry_sociology_banner{ position:relative; width:100%; height:auto; margin-bottom:60px;}
+.ry_sociology_banner img{ width:100%; height:auto;}
+.ry_sociology_banner_txt{ position:absolute; left:138px; top:62px;}
+.ry_sociology_banner_txt h4{ color:#fff; font-size:36px; line-height:74px;}
+.ry_sociology_banner_txt p{ color:#fff; font-size:14px; line-height:24px;}
+
+.ry_sociology_tab{ line-height:22px; text-align:center; padding:30px 0; overflow:hidden;}
+.ry_sociology_tab span{ display:inline-block; font-size:18px; color:#0194ff; margin-right:46px; padding:6px 20px; line-height:22px; cursor:pointer;}
+.ry_sociology_tab span.active a{ color:#fff;}
+.ry_sociology_tab span.active{ background:#0194ff; color:#fff;}
+.ry_sociology_tab span a{ color:#000;}
+.ry_sociology_tab span:hover a{ color:inherit;}
+.ry_sociology_list{ display:none;}
+.ry_sociology_list.active{ display:block;}
+
+
+.news_l{ width:69%; float:left; margin-right:1.5%;}
+.news_l_top{ background:#f3f3f3; padding:16px 0 40px;}
+.news_l_top_part{ width:94%; margin:0 auto;}
+.news_l_top_part h4{ line-height:44px; font-size:30px; color:#000; padding:11px 0; width:100%; overflow:hidden;}
+.news_l_top_part h4 a{ color:#000; font-weight:bold; float:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:70%; display:inline-block;}
+.news_l_top_part h4 a:hover{ color:#fa2b23;}
+.news_l_top_part h4 span{ width:104px; height:44px; float:left; display:block; background:#ff373a; color:#fff; font-size:34px; text-align:center; line-height:44px; font-weight:normal; margin-right:14px;}
+
+.news_l_top_main_l{ width:45%; margin-right:4%; float:left;}
+.news_l_top_main_l a{ display:block; width:100%; height:100%;}
+.news_l_top_main_l a img{ width:100%; height:100%;}
+.news_l_top_main_r{ width:50%; float:left;}
+.news_l_top_main_r a.in_more{ margin-left:0;}
+.news_l_top_main_r .news_l_top_main_r_txt{ line-height:24px; color:#666666; margin-bottom:30px;}
+
+.news_l_top_part{ display:none;}
+.news_l_top_part.active{ display:block;}
+
+
+.news_l_bottom{ background:#f3f3f3; padding-bottom:50px; margin-bottom:30px;}
+.news_l_bottom ul{ padding-left:3%;}
+.news_l_bottom ul li{ float:left; width:23%; margin-right:1%;}
+.news_l_bottom ul li a{ display:block; width:100%; height:100%; font-size:14px; line-height:18px; color:#131313;}
+.news_l_bottom ul li a img{ width:100%; height:100%; margin-bottom:8px;}
+.news_l_bottom ul li a p{ height:36px; overflow:hidden;}
+
+.industry_list_new_part1Wrap{ width:256px; height:110px; position:absolute; left:50%; top:50%; margin:-55px 0 0 -128px;}
+.industry_list_new_part1Wrap h4{ line-height:66px; position:relative; font-size:36px; color:#fff; margin-bottom:24px; text-align:center; font-weight:normal;}
+.industry_list_new_part1Wrap h4 em{ width:68px; height:2px; background:#fa2c1a;  display:block; position:absolute; bottom:0; left:50%; margin-left:-34px;}
+.industry_list_new_part1Wrap p{ width:100%; line-height:20px; font-size:12px; color:#000; text-transform:uppercase; text-align:center; background:#fff; font-weight:bold; font-family:Arial;}
+
+.news_l_main li{ width:99%; padding:26px 0; border:3px solid #f3f3f3; margin-bottom:14px;}
+.news_l_main li span{ width:84px; height:36px; margin-left:3%; display:block; background:#ff373a; color:#fff; font-size:28px; text-align:center; line-height:36px; font-weight:normal; }
+.news_l_main li h4{ line-height:58px; width:94%; margin:0 auto; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.news_l_main li h4 a{ font-size:24px; color:#000;}
+.news_l_main li h4 a:hover{ color:#fa2b23;}
+.news_l_main li p{ font-size:14px; color:#666666; line-height:26px; width:94%; margin:0 auto; margin-bottom:10px;}
+.news_l_main li > a.in_more{ margin-left:3%;}
+
+.news_r{ width:29%; float:left;}
+.ry_news_hot{ background:#f3f3f3; padding:16px 0; width:100%; margin-bottom:22px;}
+.ry_news_hot h4{width:90%; margin:0 auto; background:#fff; padding:2%; padding-bottom:30px;}
+.ry_news_hot h4 span{ display:inline-block; font-size:30px; color:#ff373a; line-height:44px; border-bottom:5px solid #ff373a;}
+.ry_news_hot ul{width:90%; margin:0 auto; background:#fff; padding:2%; padding-top:0;}
+.ry_arr_num1{ padding-left:36px; background:url(../images/ry_num1.jpg) no-repeat left center;}
+.ry_arr_num2{ padding-left:36px; background:url(../images/ry_num2.jpg) no-repeat left center;}
+.ry_arr_num3{ padding-left:36px; background:url(../images/ry_num3.jpg) no-repeat left center;}
+.ry_arr_num4{ padding-left:36px; background:url(../images/ry_num4.jpg) no-repeat left center;}
+.ry_arr_num5{ padding-left:36px; background:url(../images/ry_num5.jpg) no-repeat left center;}
+.ry_arr_num6{ padding-left:36px; background:url(../images/ry_num6.jpg) no-repeat left center;}
+.ry_arr_num7{ padding-left:36px; background:url(../images/ry_num7.jpg) no-repeat left center;}
+.ry_arr_num8{ padding-left:36px; background:url(../images/ry_num8.jpg) no-repeat left center;}
+.ry_arr_num9{ padding-left:36px; background:url(../images/ry_num9.jpg) no-repeat left center;}
+.ry_arr_num10{ padding-left:36px; background:url(../images/ry_num10.jpg) no-repeat left center;}
+
+.ry_news_hot li{ height:40px; line-height:40px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.ry_news_hot li a{ color:#666666; font-size:14px;}
+.ry_news_hot li a:hover{ color:#fa2b23;}
+.ry_news_hot h4{}
+
+.ry_news_video{ width:100%; margin-bottom:22px;}
+.ry_news_video a{ display:block; width:100%; position:relative;}
+.ry_news_video a img{ width:100%; height:auto;}
+.ry_news_video a span{ position:absolute; width:100%; height:100%; background:url(../images/about_img13.png) repeat; left:0; top:0;}
+.ry_news_video a em{ position:absolute; width:100%; height:100%; z-index:200; background:url(../images/ry_play_menu1.png) no-repeat center; left:0; top:0;}
+
+
+.ry_news_active{ background:#f3f3f3; padding:16px 0 0; width:100%;}
+.ry_news_active001{ padding:16px 0;}
+.ry_news_active h4{width:90%; margin:0 auto; background:#fff; padding:2%; padding-bottom:30px;}
+.ry_news_active h4 a{ display:inline-block; font-size:30px; color:#404040; line-height:44px; border-bottom:5px solid #404040;}
+.ry_news_active ul{ width:90%; margin:0 auto; background:#fff; padding:0 2%; padding-bottom:24px;}
+.ry_news_active ul li{ margin-bottom:20px;}
+.ry_news_active ul li.last{ margin:0;}
+.ry_news_active ul dl{ overflow:hidden;}
+.ry_news_active ul dl dt{ width:25%; float:left; margin-right:5%;}
+.ry_news_active ul dl dt a{ display:block; width:100%; height:auto;}
+.ry_news_active ul dl dt a img{ width:100%; height:auto;}
+.ry_news_active ul dl dd{ width:65%; float:left; line-height:28px; font-weight:bold;}
+.ry_news_active ul dl dd a{ font-size:18px; color:#404040;}
+.ry_news_active ul dl dd a:hover{ color:#fa2b23;}
+
+.ry_news_magazine{ background:#f3f3f3; padding:16px 0; width:100%; margin-bottom:22px;}
+.ry_news_magazine h4{width:90%; margin:0 auto; background:#fff; padding:2%; padding-bottom:30px;}
+.ry_news_magazine h4 a{ display:inline-block; font-size:30px; color:#404040; line-height:44px; border-bottom:5px solid #404040;}
+.ry_news_magazine ul{ width:92%; margin:0 auto; background:#fff; padding:0 2% 0 0%; padding-bottom:24px;}
+.ry_news_magazine ul li{ width:32%; float:left; margin-left:1.3%;}
+.ry_news_magazine ul li.last{ margin:0;}
+.ry_news_magazine ul li dl{ width:100%;}
+.ry_news_magazine ul li dl dt{ width:100%; margin-bottom:10px;}
+.ry_news_magazine ul li dl dt a{ display:block; width:100%; height:auto;}
+.ry_news_magazine ul li dl dt a img{ width:100%; height:auto;}
+.ry_news_magazine ul li dl dd{ line-height:18px; color:#000; font-size:12px; text-align:center;}
+.ry_news_magazine ul li dl dd em{ color:#005fbb;}
+
+.ry_news_tab{ text-align:center; line-height:18px; padding:30px 0 0;}
+.ry_news_tab a{ color:#686868; padding:4px 14px; border-radius:4px; margin-right:32px; position:relative; white-space:nowrap; margin-bottom:30px; display:inline-block;}
+.ry_news_tab a span{ display:none;}
+.ry_news_tab a.active{ color:#fff; background:#e60b11;}
+.ry_news_tab a.active span{ display:block; width:0; height:0; border:5px solid transparent; border-top:5px solid #e60b11; position:absolute; left:50%; margin-left:-3px; bottom:-8px;}
+
+.org_banner{ width:100%;}
+.org_banner img{ width:100%; height:auto;}
+
+.org_tab{ padding:90px 0 32px; text-align:center;}
+.org_tab span{ padding:0 18px; line-height:32px; display:inline-block; color:#0072c5; font-size:18px; margin-right:5%; cursor:pointer;}
+.org_tab span.active a{ color:#fff;}
+.org_tab span.active{ background:#0072c5; color:#fff;}
+.org_tab span:hover a{ color:#fff;}
+.org_map{ width:100%;}
+.org_map img{ width:100%; height:auto;}
+
+.org_title{ padding-top:64px; padding-bottom:40px;}
+.org_title h4{ float:left; line-height:30px; font-size:24px; color:#001e3f; font-weight:normal; margin-right:20px;}
+.org_title .org_inp{ float:left; width:230px; height:30px; background:url(../images/ry_org_img3.jpg) no-repeat; position:relative;}
+.org_inp .org_txt{ width:196px; border:0; background:none; height:30px; line-height:30px; float:left; margin-left:4px; cursor:pointer; color:#0072c5;}
+.org_inp dl{ position:absolute; left:0; top:28px; border:2px solid #b9b9b9; width:226px; background:#fff; display:none;}
+.org_inp dd{ padding-left:4px; line-height:26px; cursor:pointer;}
+.ry_detail{ font-size:12px; color:#404040; line-height:24px; margin-bottom:50px;}
+.org_bottom{}
+.org_bottom img{ float:left; width:31%; margin-right:3%;}
+.org_bottom dl{ float:left;}
+.org_bottom dd{ line-height:30px; padding-left:42px; color:#0072c5;}
+.org_pic1{ background:url(../images/ry_org_img5.jpg) no-repeat left center;}
+.org_pic2{ background:url(../images/ry_org_img6.jpg) no-repeat left center;}
+.org_pic3{ background:url(../images/ry_org_img7.jpg) no-repeat left center;}
+.org_pic4{ background:url(../images/ry_org_img8.jpg) no-repeat left center;}
+.org_article{ width:98%; margin:0 auto;}
+
+.org_banner{ position:relative;}
+.org_banner_txt{ color:#fff; position:absolute; left:10%; top:32px;}
+.org_banner_txt h4{ line-height:88px; font-size:36px; font-weight:normal;}
+.org_banner_txt p{ font-size:14px; line-height:22px;}
+
+.video_appbox{ position:fixed; width:100%; height:100%; top:0; left:0; z-index:900301; display:none; text-align:center;}
+.video_appbox .video_t{ left:10%; top:15%; position:absolute; height:70%; width:80%;   z-index:2; background:#000;}
+.video_appbox .mask{ position:absolute; z-index:1; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.5);}
+.lt9 .video_appbox .mask{filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#88000000", EndColorStr="#88000000");}
+
+
+.ry_sociology_tablist{ position:relative; width:100%;}
+.ry_sociology_tablist .ry_sociology_list{ display:block; visibility:hidden; position:relative; left:0; top:0; height:0; overflow:hidden;}
+.ry_sociology_tablist .ry_sociology_list.active{  visibility:visible; position:relative; left:0; top:0; height:auto;}
+
+.car_oil_wrap .car_oil a,.grease_wrap .car_oil a,.maintenance_wrap .car_oil a{ display:block; width:100%; height:100%;background:url(../images/tmbg.png) repeat;}
+
+.maintenance_wrap .redBorder span, .maintenance_wrap .redBorder em{ display:none;}
+.grease_wrap .redBorder span, .grease_wrap .redBorder em{ display:none;}
+.ry_news_media_header{ position:relative; width:100%; overflow:hidden;}
+.ry_news_media_header > a{ display:block; width:42%; float:left; position:relative; margin-top:40px; z-index:200;}
+.ry_news_media_header > a img{ width:100%; height:auto;}
+.ry_news_media_h_right{ position:absolute; right:0; top:0; width:48%; border:5px solid #f3f3f3; padding-left:15%; padding-top:60px; padding-bottom:60px;}
+.ry_news_media_h_right span{ display:block; width:104px; height:44px; line-height:44px; text-align:center; color:#fff; font-size:24px; background:#0075cc;}
+.ry_news_media_h_right dl{ margin-bottom:20px; width:85%;}
+.ry_news_media_h_right dt{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%; padding:14px 0;}
+.ry_news_media_h_right dt a{ font-size:24px; color:#000; line-height:30px; font-weight:bold;}
+.ry_news_media_h_right dt a:hover{ color:#fa2b23;}
+.ry_news_media_h_right dd{ font-size:14px; color:#686868; line-height:22px;}
+.ry_news_media_h_right > a.in_more{ margin:0;}
+
+.ry_news_media_main_l{ width:66%; float:left; margin-right:4%;}
+.ry_news_media_main_r{ width:30%; float:left; margin-left:-1px; position:relative; left:1px;}
+
+.ry_news_hot_media{ width:90%; margin:0 auto; background:#fff; padding:0 2%;}
+.ry_news_hot_media > a{ display:block; width:96%; margin:0 auto; margin-bottom:40px;}
+.ry_news_hot_media > a img{ width:100%; height:auto;}
+.ry_news_hot_media ol{ overflow:hidden;}
+.ry_news_hot_media ol li{ height:auto; line-height:26px; float:left; width:50%; margin-left:-1px; position:relative; left:1px; text-align:center; margin-bottom:34px;}
+.ry_news_hot_media ol li p{ font-size:14px;}
+.ry_news_hot_media ol li em{ font-size:12px; color:#035eb9;}
+.ry_news_hot li a img{ width:82%; height:auto;}
+
+.search_pro_list h4{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%;}
+
+.industry_list_new_part3_link br{ display:none;}
+
+.expert_part1,.expert_part2,.expert_part3,.expert_part4,.expert_part2_top,.expert_part2_bottom{ width:100%;}
+.expert_part2_l,.expert_part2_r{ width:50%; float:left;}
+.expert_part2_r{ position:relative; left:1px; margin-left:-1px; width:46%; padding-left:4%;}
+.expert_part1{ position:relative; margin-bottom:30px;}
+.expert_part1 > img{ width:100%;}
+.expert_part1_txt{ position:absolute; top:172px; left:190px;}
+.expert_part1_txt h4,.expert_part1_txt h4 a{ line-height:68px; font-size:36px; font-weight:normal; color:#ffffff;}
+.expert_part1_txt h5{ font-size:20px; color:#fff; font-weight:normal; line-height:42px;}
+.expert_part1_txt p{ line-height:14px; font-size:12px; color:#fff;}
+
+.expert_part2{ background:url(../images/c_line.jpg) repeat-x left bottom; margin-bottom:30px;}
+.expert_part2_l img{ width:100%; height:auto;}
+.expert_part2_r h4{ padding-top:72px; font-size:82px; font-size:20px; color:#000000; line-height:82px; font-weight:normal;}
+.expert_part2_r p{font-size:14px; color:#000000; line-height:32px; margin-bottom:28px; width:80%; height:160px; overflow:hidden;}
+
+
+.ccrhy_newpage_part1 h4{ padding-top:0; font-size:28px; color:#000000; line-height:60px; font-weight:normal; text-align:center;}
+.ccrhy_newpage_part1 p{font-size:14px; color:#000000; line-height:32px; margin-bottom:20px; width:100%; height:auto; overflow:hidden; text-align:center;}
+.ccrhy_newpage_part2{ padding-bottom:20px;}
+.ccrhy_newpage_part2_l{ width:50%; float:left;}
+.ccrhy_newpage_part3_l{height:470px; overflow:hidden;}
+.ccrhy_newpage_part3_l .share_self{ height:470px;}
+.ccrhy_newpage_part2_l img{ width:100%; height:auto;}
+.ccrhy_newpage_part2_r{ width:50%; float:left; margin-left:-1px; left:1px; position:relative;}
+.ccrhy_newpage_part2_r img{ width:100%; height:auto;}
+
+
+.ccrhy_newpage_part3_l{ width:50%; float:left;}
+.ccrhy_newpage_part3_r{ width:50%; float:left; margin-left:-1px; left:1px; position:relative;}
+.ccrhy_newpage_part3_r h4{ padding-top:0; font-size:28px; color:#000000; line-height:60px; font-weight:normal; text-align:center; width:90%; margin:0 auto;}
+.ccrhy_newpage_part3_r p{font-size:14px; color:#000000; line-height:40px; margin-bottom:20px; height:auto; overflow:hidden; text-align:left; width:90%; margin:0 auto;}
+.ccrhy_newpage_part3_r p a{ color:#005bac;}
+.ccrhy_newpage_part3_r p a:hover{ color:#f00;}
+
+.expert_part2_bottom{ text-align:center; padding-bottom:1px;}
+
+.expert_part2_bottom h4{ line-height:120px; font-size:20px; color:#000; text-align:center; font-weight:normal;}
+.expert_part2_bottom_spec h4{ line-height:54px;}
+.expert_part2_bottom_menu span{ display:inline-block; width:243px; height:50px; text-align:center; border-radius:4px; margin-right:20px; cursor:pointer;}
+.expert_part2_bottom_menu em,.expert_part2_bottom_menu i{ color:#fff; display:block; text-align:center; }
+.expert_part2_bottom_menu span{ background:#a4bed4;}
+.expert_part2_bottom_menu em{ font-size:20px; line-height:26px; padding-top:2px;}
+.expert_part2_bottom_menu i{ line-height:18px; font-size:12px; text-transform:uppercase; letter-spacing:2px; color:#bfd1e0;}
+
+.expert_part3{ width:86%; margin:0 auto 30px;}
+.expert_part3_l,.expert_part3_r{ width:50%; float:left;}
+.expert_part3_r{ margin-left:-1px; left:1px; psoition:relative;}
+.expert_part3_l ul{ margin-bottom:75px;}
+.expert_part3_l li{ font-size:18px; color:#1c1c1c; line-height:28px; background:url(../images/rh_spec_img4.jpg) no-repeat left 8px; padding-left:24px; margin-bottom:28px;}
+.expert_part3_menu{ width:514px;}
+.expert_part3_l .expert_part3_menu a{ display:inline-block; line-height:32px; border:1px dotted #aeaeae; font-size:14px; color:#006ec8; padding:0 14px; margin-right:20px;margin-bottom:10px;}
+.expert_part3_l .expert_part3_menu a em{ padding-right:20px; background:url(../images/rh_spec_img5.jpg) no-repeat right center;}
+
+.expert_part4_t{background:#006fcb;}
+.expert_part4_t_l,.expert_part4_t_lr,.expert_part4_t_l > img,.expert_part4_t_r,.expert_part4_t_r img,.expert_part4_b_l,.expert_part4_b_r,.expert_part4_b_l img{ width:50%; float:left; height:100%; position:relative; left:1px; margin-left:-1px;}
+.expert_part4_t,.expert_part4_b{ height:312px;}
+.expert_part4_t_lr h4,.expert_part4_t_lr h4 a{ line-height:78px; font-size:20px; color:#fff; font-weight:normal;}
+.expert_part4_t_lr{ width:40%; padding:0px 6% 0 4%;}
+.expert_part4_t_lr p{ font-size:12px; color:#fff; line-height:18px; margin-bottom:18px; height:36px; overflow:hidden;}
+
+.expert_part4_t_rr h4,.expert_part4_t_rr h4 a{ line-height:68px; font-size:20px; color:#006fcb; font-weight:normal;}
+.expert_part4_t_rr{ width:86%; padding:0 6% 0 8%;}
+.expert_part4_t_rr p{ font-size:12px; color:#000; line-height:18px; margin-bottom:18px;}
+
+.expert_part3_r img{ width:100%;}
+
+.expert_part2_bottom_menu span.active{ background:#007eda;}
+
+.expert_part3_tabPart{ display:none;}
+.expert_part3_tabPart.active{ display:block;}
+
+.main_gyy li dl dd p{ height:72px; overflow:hidden; line-height:24px; width:100%; padding-bottom:0; margin-bottom:16px;}
+
+.expert_part4_t_rr h4 a:hover,.expert_part4_t_lr h4 a:hover{ color:#fa2b13}
+
+
+
+.ld-pb li{ background:#f2f2f2; }
+.ld-pb li:hover{ background:#e80015; }
+.ld-pb p{  line-height:24px; overflow:hidden; width:auto !important; padding-top:70px;  }
+.ld-pb a{ padding:0 !important; }
+.ld-pb span{ display:block; float:right; padding:10px 0; text-align:center; height:140px; width:228px;  background:#FFF; margin:2px; }
+.ld-pb span img{ margin:0 auto; height:100%; width:auto; }
+.jiazai{ display:block; width:52px; height:52px; background:url(../images/slide_mn.png) no-repeat center top; background-size:cover; margin:20px auto;}
+.jiazai:hover{ background:url(../images/slide_mn1.png) no-repeat center top; }
+
+.ry_new_bottom{ padding-top:30px;}
+.ry_new_bottom h4{ font-size:30px; color:#000000; font-weight:normal; line-height:90px;}
+.ry_new_bottom_l{ width:43%; margin-right:3%; float:left;}
+.ry_new_bottom_r{ width:54%; float:left; position:relative; left:1px; top:0; margin-left:-1px;}
+.ry_new_bottom_r li{ height:60px; border-bottom:1px dashed #e6e6e6; overflow:hidden;}
+.ry_new_bottom_r li a{font-size:16px; color:#000000; display:inline-block; max-width:80%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; line-height:60px;}
+.ry_new_bottom_r li a:hover{ color:#f00;}
+.ry_new_bt30{ margin-bottom:30px;}
+.ry_new_bottom_r li span{ float:right; color:#0272c4; font-family:Arial; line-height:60px;}
+.share_self{ width:100%; height:634px;}
+
+.industry_new_menu{ padding-bottom:40px; padding-top:60px; text-align:center;}
+.industry_new_menu span{ display:inline-block; margin-right:36px; font-size:24px; color:#a2a2a2; padding-bottom:2px;}
+.industry_new_menu span a{ color:#a2a2a2;}
+.industry_new_menu span.active{color:#fa2700; border-bottom:1px solid #fa2700;}
+.industry_new_menu span.active a{ color:#fa2700;}
+
+.industry_new_menu span:hover{ border-bottom:1px solid #fa2700;}
+.industry_new_menu span:hover a{ color:#fa2700;}
+
+.new_honor_top{ height:146px;}
+.new_honor_top h4{ line-height:90px; position:relative; padding-top:26px;}
+.new_honor_top h4 a{ font-size:36px; color:#000;}
+.new_honor_top h4 em{ position:absolute; bottom:0px; height:4px; background:#fa2c1a; width:68px; display:block; left:50%; margin-left:-34px;}
+
+.in_researchtt_wrap{ position:absolute; left:0; height:479px; background:#1078ce; width:45%; top:0;}
+.in_researchtt_wrap .industry_list_new_part1Wrap{ position:relative; left:0; top:0; margin:0; text-align:left; padding:22px 46px;}
+.in_researchtt_wrap .industry_list_new_part1Wrap h4{ text-align:left; font-size:36px; margin-bottom:12px;}
+.in_researchtt_wrap .industry_list_new_part1Wrap p{ text-align:left; background:none; color:#fff; font-size:14px;}
+.in_researchtt_wrap .industry_list_new_part1Wrap h4 em{ text-align:left; left:0; margin:0;}
+.industry_list_new_article{ color:#fff; padding:0 46px; line-height:26px; height:156px; overflow:hidden;}
+
+.in_researchtt_wrap1{ width:30%; right:0; left:auto; background:#e7271c;}
+.industry_list_new_part1Wrap1{ width:84%; margin:0 auto; padding-top:38px;}
+.in_researchtt_wrap1 .industry_list_new_part1Wrap1 p{ background:none; font-size:16px; line-height:36px; padding-top:28px;}
+
+.ry_sociology_tab_newRearch{ border-bottom:1px solid #d8d8d8; text-align:center; margin-bottom:20px;}
+.ry_sociology_tab span,.ry_sociology_tab em{ color:#3a3a3a;}
+.ry_sociology_tab em { font-size:18px; float:left; }
+
+.ry_sociology_tab_newRearch span.active{ background:#0072c5;}
+.ry_sociology_tablist .dhq_news_cont .tit{ text-align:left; font-size:24px; color:#001e3f;}
+.ry_sociology_tablist .dhq_news_cont .edit_con_original{ padding:0;}
+
+.ab_share .bdshare-button-style0-32{ float:right;}
+
+.industry_list_new_part1Wrap1 h4{ color:#000;}
+.industry_list_new_part1Wrap1 p{ background:#fa2c1c; color:#fff;}
+
+.industry_list_new_part1Wrap11 h4{ color:#000;}
+.industry_list_new_part1Wrap11 p{ background:#fa2c1c; color:#fff;}
+
+.industry_list_new_part1Wrap2 h4{ font-size:48px; color:#fff; margin-bottom:0;}
+.industry_list_new_part1Wrap2 p{ background:none; font-size:24px; color:#fff; text-transform:none; font-weight:normal;}
+
+.new_water_list{ padding-top:30px;}
+.new_water_list li{ width:50%; position:relative; left:1px; margin-left:-1px; float:left; height:auto; overflow:hidden; padding-bottom:46px;}
+.new_water_list_l{ float:left; width:15%;}
+.new_water_list_l img{ width:80%; height:auto;}
+.new_water_list_r{ float:left; width:85%; position:relative; left:1px; margin-left:-1px;}
+.new_water_list_r h4,.new_water_list_r h5,.new_water_list_r p{ width:90%;}
+.new_water_list_r h4{ line-height:46px; color:#000000; font-size:24px; font-weight:normal;}
+.new_water_list_r h5{ line-height:46px; color:#000; font-size:16px; font-weight:normal; line-height:34px;}
+.new_water_list_r p{ color:#898989; line-height:24px;}
+.new_water_list_r p a{ color:#898989;}
+.new_water_list_r p a:hover{ color:#005bac;}
+
+.new_water_list_max{ width:80%; margin:0 auto; text-align:center;}
+.new_water_list_max img{ margin:0 auto;}
+.new_water_list_max h4{ line-height:42px; font-size:24px; color:#464646; font-weight:normal;}
+.new_water_list_max p{ line-height:24px; color:#979797; height:48px; overflow:hidden;}
+
+.testing_main_part1{ padding-top:70px; margin-bottom:70px;}
+.testing_main_part1 > img{ float:left; width:40%; margin-right:10%; max-width:100%;}
+.testing_main_part1 .testing_main_part1_r{ padding-top:90px; line-height:26px; color:#404040; font-size:12px;}
+.testing_main_part1 .testing_main_part1_r h5{ line-height:38px; padding-top:20px; color:#001e3f; font-size:16px;}
+
+.testing_main_part2{ width:100%;}
+	.testing_main_part2 img{ width:100%; height:auto;}
+	
+	.testing_main_part2{ position:relative;}
+	.testing_main_part2_txt{ position:absolute; left:0; top:0; padding-top:60px; width:100%; text-align:center;	}
+	.testing_main_part2_txt h4{ font-size:16px; line-height:60px; color:#fc2c20;}
+	.testing_main_part2_txt p{ line-height:35px; font-size:12px; color:#404040; margin-bottom:10px;}
+	
+	
+	.invtag_main{margin:0; width:auto; height:auto; padding:46px 0; overflow:auto; background:#f7f7f7; border:1px solid #c2c2c2;}
+	.invtag_main_box > h4{ font-size:18px; color:#111111; font-weight:normal; line-height:2.4em;}
+	.scroll_content{ height:550px;}
+	.scroll_content li{ overflow:hidden;}
+	.invtag_main_list_l,.invtag_main_list_r{ float:left;}
+	.invtag_main_list_r{ width:80%;}
+	.invtag_main_list_r i{ color:#e60414;}
+	.invtag_main_list_r p,.invtag_main_list_l em{ line-height:30px;}
+	.invtag_main_list_r dd.radio_box{ height:36px;}
+	.invtag_main_list_r dd{ float:left; width:40%; overflow:hidden; margin-bottom:10px;}
+	.invtag_main_list_r dd input,.invtag_main_list_r dd label{ float:left; margin-right:6px; line-height:30px;}
+	.invtag_main_list_r dd input{ position:relative; top:8px;}
+	.invtag_main_list_r dd img{ width:120px; height:auto;}
+	.invtag_main_box > p{ font-size:16px; line-height:1.4em;}
+	.invtag_main_list{ padding-top:50px;}
+	.invtag_main_list ul{ margin-bottom:50px;}
+	.invtag_main_list ul li{ padding-bottom:14px;}
+	.invtag_main_list > input{ width:132px; height:42px; margin:0 auto; display:block; color:#fff; background:#3897e0; font-size:16px; border:0; border-radius:2px;}
+	.invtag_main_list span{ margin-right:5px; float:left; line-height:22px;}
+	.invtag_main_list_b{ padding-top:16px;}
+	.invtag_main_list_b ol li{ width:24px; height:22px; background:url(../images/xx_icon2.jpg) no-repeat; float:left; padding-right:5px; cursor:pointer;}
+	.invtag_main_list_b ol li.select{ background:url(../images/xx_icon1.jpg) no-repeat;}
+	
+	 .invtag_main_list_r dl.four_line{ padding-top:24px;}
+	 .invtag_main_list_r dl.four_line dd{ width:20%; margin-right:4%;}
+	 .invtag_main_list_r dl.four_line dd img{ width:100%;}
+	 .invtag_main_list_r dl.two_line{ padding-top:24px;}
+	 .invtag_main_list_r dl.two_line dd{ width:30%; margin-right:10%; margin-bottom:10px;}
+	 .invtag_main_list_r dl.two_line dd img{ width:100%;}
+	
+ @media only screen and (max-width: 1660px) {
+	 .ld-pb span{ width:180px; }
+	 .grease_wrap .car_oil{ height:1170px;}
+	 .car_oil_wrap .car_oil{ height:2333px; overflow:hidden;}
+	 
+	 .grease_wrap .car_oil_part3 .car_oil_txt{ width:280px;}
+	
+	.car_oil_wrap .car_oil_part1 .car_oil_txt{ top:104px;}
+	.car_oil_wrap .car_oil_part4 .car_oil_txt{  top:38px;}
+	.car_oil_wrap .car_oil_part5 .car_oil_txt{ top:124px;}
+	.car_oil_wrap .car_oil_part6 .car_oil_txt{ top:70px;}
+	.car_oil_wrap .car_oil_part13 .car_oil_txt{ top:84px;}
+	.ry_about_part3_r img{ width:100%; height:auto;}
+	.ry_about_part3_l_txt{ left:40px; width:380px; top:60px;}
+	.ry_about_part3_l{ background-position:left center;}
+
+.ry_media_part1 ul li p{ height:50px; line-height:50px;}
+
+	
+	.grease_wrap .car_oil_part1 .car_oil_txt{ top:104px; margin-left:-136px; width:280px;}
+	
+
+
+    
+	.maintenance_wrap .car_oil{ height:1120px; }
+
+	
+	.maintenance_wrap .car_oil_part1 .car_oil_txt{ top:104px;}
+	
+	 .ry_about_part2_r .ry_about_part2_r_top{ height:233px;}
+	 .ry_about_part2_r .ry_about_part2_r_bottom{ height:170px; padding:0;}
+	 .ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt{ padding:22px 2%; width:46%; height:189px;}
+	 .ry_about_part2_l .ry_about_part2_l_txt{ height:264px; width:440px;}
+	 
+	 .ry_about_part3{ margin-bottom:0;}
+	 
+	 .ry_about_part4_l{ width:669px; margin-right:8px;}
+	 .ry_about_part4_l_top{ margin-bottom:3px;}
+	 .ry_about_part4_l_top_l{ width:333px; height:250px; margin-right:3px;}
+	 .ry_about_part4_l_top_r{ width:333px; height:250px;}
+	 
+	 .ry_about_part4_l_top_box{ width:522px; height:392px;}
+	 
+	 .ry_about_part4_r{ width:520px;}
+	 .ry_about_part4_r_bottom{ width:522px; height:392px;}
+	 
+	 .ry_about_part4_r_top p br{ display:none;}
+	 
+	 .ry_about_index .ry_about_index_txt{ top:70px;}
+	 
+	 .ry_about_part3_r{ height:405px;}
+	 .ry_about_part3_l{ height:405px;}
+	 
+	 .ry_about_part6{ margin-bottom:40px;}
+	 
+	 .ry_about_part4_l_top_l img,.ry_about_part4_l_top_l img,.ry_about_part4_l_top_r img,.ry_about_part4_l_top_box img,.ry_about_part4_r_bottom img{ width:100%; height:100%;}
+	 .ry_about_part6 img{ width:100%; height:auto;}
+	 
+	 
+	 .ry_about_part5_top > h4{ line-height:150px;}
+	 
+	 .ry_about_part5 p{ line-height:88px;}
+	 .ry_scroll_wrap,.ry_scroll_box{ padding-bottom:40px;}
+	 
+	 .org_banner_txt{ color:#fff; position:absolute; left:10%; top:12px;}
+	.org_banner_txt h4{ line-height:48px; font-size:26px; font-weight:normal;}
+	.org_banner_txt p{ font-size:14px; line-height:20px;}
+	
+	 .car_oil_wrap .car_oil_txt h4,.car_oil_wrap .car_oil_part10 .car_oil_txt h4,.grease_wrap .car_oil_txt h4,.grease_wrap .car_oil_part2 .car_oil_txt h4,.grease_wrap .car_oil_part4 .car_oil_txt h4,.grease_wrap .car_oil_part5 .car_oil_txt h4,.grease_wrap .car_oil_part6 .car_oil_txt h4,.maintenance_wrap .car_oil_txt h4,.maintenance_wrap .car_oil_part2 .car_oil_txt h4,.maintenance_wrap .car_oil_part4 .car_oil_txt h4,.maintenance_wrap .car_oil_part5 .car_oil_txt h4,.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:30px;}
+	 .car_oil_wrap .car_oil_txt h5,.grease_wrap .car_oil_txt h5,.maintenance_wrap .car_oil_txt h5{ font-size:14px;}
+	 
+	 .ry_news_media_h_right{ padding-top:48px; padding-bottom:48px;}
+	 
+	 .ind_list_txt h5{ font-size:30px;}
+	 .industry_list_new_part2 h4{ padding:24px 0;}
+	 .industry_list_new_part2 h4 span{ font-size:30px; line-height:40px;}
+	 .industry_list_new_part2 ul li a{ padding:20px 0;}
+	 .industry_list_new_part2{ padding-bottom:60px;}
+	 .industry_list_new_part3,.industry_list_new_part4{ padding:40px 0;}
+	 .industry_list_new_part4{ padding-bottom:0;}
+	 .industry_list_new_part3_r{ padding-top:86px;}
+	 .industry_list_new_part3_r h4{ font-size:24px; line-height:46px;}
+	 .industry_list_new_part2 ul li{ margin-right:1.6%;}
+	 .industry_list_new_part3_r h4{ margin-bottom:55px;}
+	 .industry_list_new_part4{ padding:80px 0 40px;}
+	 
+	 .search_main > h4{ font-size:22px; line-height:50px;}
+	 
+	 
+	 .history_main_header_box{ width:850px;}
+	 
+	 .expert_part1_txt{ top:119px; left:138px;}
+	 .expert_part1_txt h4, .expert_part1_txt h4 a{ line-height:54px; font-size:26px;}
+	 .expert_part1_txt h5{ font-size:14px; line-height:34px;}
+	 .expert_part2_r h4{ line-height:56px; padding-top:20px; font-size:15px;}
+	 .expert_part2_r p{ font-size:12px; line-height:26px;}
+	 .expert_part2_bottom h4{ font-size:15px; line-height:84px;}
+	 
+	 .expert_part2_bottom_menu span{ width:176px; height:36px; margin-right:14px;}
+	 .expert_part2_bottom_menu em{ font-size:14px; line-height:18px;}
+	 .expert_part2_bottom_menu i{ line-height:16px;}
+	 .expert_part3_l{ padding-top:34px;}
+	 .expert_part3_l li{ font-size:13px; margin-bottom:18px; width:410px;}
+	 .expert_part3_l ul{ margin-bottom:46px;}
+	 
+	
+	 
+	 .expert_part4_t, .expert_part4_b{ height:225px;}
+	 .expert_part4_t_rr h4, .expert_part4_t_rr h4 a,.expert_part4_t_lr h4, .expert_part4_t_lr h4 a{ font-size:14px; line-height:50px;}
+	 .expert_part4_t_rr p{ height:108px; overflow:hidden; font-size:12px;}
+	 .expert_part4_t_lr p{ font-size:12px;}	 
+	 
+	 .ry_new_bottom h4{ line-height:60px; font-size:20px;}
+	 
+	 .invtag_main_box{ margin:0 10%;}
+	 
+ }
+ 
+  @media only screen and (max-width: 1365px) {
+  	.ld-pb p{ padding:70px 5px 0; box-sizing:border-box; }
+	  .search_main ul{ padding-bottom:20px;}
+	 .car_oil_wrap .car_oil{ height:2333px; overflow:hidden;}
+    
+.car_oil_wrap .car_oil_part13 .car_oil_txt{ width:220px; margin-left:-110px;}
+	
+	
+		
+	.car_oil_wrap .car_oil_part13 .car_oil_txt{ top:84px;}
+	
+	.car_oil_wrap .car_oil_txt h4{ font-size:30px;}
+	.car_oil_wrap .car_oil_txt h5{ font-size:12px;}
+	.car_oil_wrap .car_oil_txt_main{ font-size:12px;}
+	.car_oil_wrap .car_oil_part1 .car_oil_txt{ width:226px; margin-left:-113px; top:74px;}
+	.car_oil_wrap .car_oil_part4 .car_oil_txt{ top:12px;}
+	.car_oil_wrap .car_oil_part5 .car_oil_txt{ top:94px;}
+	.car_oil_wrap .car_oil_part6 .car_oil_txt{ top:60px;}
+	.car_oil_wrap .car_oil_part9 .car_oil_txt{ margin-top:-150px;}
+	.car_oil_wrap .car_oil_part12 .car_oil_txt{ margin-left:-187px; margin-top:-138px; width:232px;}
+	
+	.car_oil_wrap .car_oil_part13 .car_oil_txt em,.car_oil_wrap .car_oil_part13 .car_oil_txt span{ display:block;}
+
+
+    .car_oil{ width:1024px; height:1050px; overflow:hidden;}
+	
+	.grease_wrap .car_oil_txt h4{ font-size:40px;}
+	.grease_wrap .car_oil_txt h5{ font-size:13px;}
+	.grease_wrap .car_oil_part2 .car_oil_txt{ margin-left:-120px;}
+	
+	.grease_wrap .car_oil_part3 .car_oil_txt{ margin-left:-214px; margin-top:-120px;}
+	.grease_wrap .car_oil_part4 .car_oil_txt{ margin-left:-186px; margin-top:-90px;}
+	.grease_wrap .car_oil_part5 .car_oil_txt{ margin-top:-60px; margin-left:-150px;}
+	
+	.grease_wrap .car_oil_part1 .car_oil_txt{ top:36px; width:240px; margin-left:-120px;}
+
+
+    .maintenance_wrap .car_oil{ height:933px;}
+
+	
+	.maintenance_wrap .car_oil_txt h4{ font-size:40px;}
+	.maintenance_wrap .car_oil_part2 .car_oil_txt h4{ font-size:30px;}
+	.maintenance_wrap .car_oil_part4 .car_oil_txt h4{ font-size:30px;}
+	.maintenance_wrap .car_oil_part5 .car_oil_txt h4{ font-size:30px;}
+	.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:30px;}
+	.maintenance_wrap .car_oil_txt h5{ font-size:13px;}
+	.maintenance_wrap .car_oil_part2 .car_oil_txt{ margin-left:-110px;}
+	
+	.maintenance_wrap .car_oil_part4 .car_oil_txt{ margin-left:-114px; margin-top:-70px;}
+	.maintenance_wrap .car_oil_part5 .car_oil_txt{ margin-top:-60px; margin-left:-190px;}
+	.maintenance_wrap .car_oil_part6 .car_oil_txt{ margin-top:-60px;}
+	
+	.org_banner_txt{ color:#fff; position:absolute; left:10%; top:4px;}
+	.org_banner_txt h4{ line-height:28px; font-size:20px; font-weight:normal;}
+	.org_banner_txt p{ font-size:12px; line-height:18px;}
+	
+	.maintenance_wrap .car_oil_part4 .car_oil_txt{ width:224px;}
+	 
+	 .car_oil_wrap .car_oil_txt h4,.car_oil_wrap .car_oil_part10 .car_oil_txt h4,.grease_wrap .car_oil_txt h4,.grease_wrap .car_oil_part2 .car_oil_txt h4,.grease_wrap .car_oil_part4 .car_oil_txt h4,.grease_wrap .car_oil_part5 .car_oil_txt h4,.grease_wrap .car_oil_part6 .car_oil_txt h4,.maintenance_wrap .car_oil_txt h4,.maintenance_wrap .car_oil_part2 .car_oil_txt h4,.maintenance_wrap .car_oil_part4 .car_oil_txt h4,.maintenance_wrap .car_oil_part5 .car_oil_txt h4,.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:22px;}
+	 .car_oil_wrap .car_oil_txt h5,.grease_wrap .car_oil_txt h5,.maintenance_wrap .car_oil_txt h5{ font-size:12px;}
+	 .maintenance_wrap .car_oil_txt_main{ font-size:12px;}
+	 
+	 .ind_list_txt h5{ font-size:24px;}
+	 .industry_list_new_part2 h4{ padding:20px 0;}
+	 .industry_list_new_part2 h4 span{ font-size:20px; line-height:30px;}
+	 .industry_list_new_part2 ul li a{ padding:16px 0;}
+     .industry_list_new_part2t ul li > a{ display:block; width:100%; height:100%; padding:0; overflow:hidden; position:relative;}
+	 .industry_list_new_part2{ padding-bottom:40px;}
+	 .industry_list_new_part3,.industry_list_new_part4{ padding:30px 0;}
+	 .industry_list_new_part4{ padding-bottom:0;}
+	 .industry_list_new_part3_r{ padding-top:36px;}
+	 .industry_list_new_part3_r h4{ font-size:20px; line-height:40px;}
+	 .industry_list_new_part2 ul li{ margin-right:1.3%;}
+	 .industry_list_new_part4_part h4{ font-size:20px; line-height:42px;}
+	 .industry_list_new_part3_r h4{ margin-bottom:31px; padding-top:20px;}
+	 .industry_list_new_part4{ padding:80px 0 40px;}
+	 
+	 .history_main_header_box{ width:650px;}
+	 
+	 .expert_part2_r h4{ padding-top:0;}
+	 .expert_part3_l li{ width:360px;}
+	 .expert_part3_l .expert_part3_menu a{ font-size:12px; padding:0 8px;}
+	 .expert_part4_t, .expert_part4_b{ height:190px;}
+	 .expert_part4_t_lr{ padding-top:18px;}
+	 .expert_part4_t_rr p{ height:90px;}
+	 .expert_part1_txt{ top:80px;}
+	 
+	 .ry_new_bottom h4{ line-height:80px; font-size:26px;}
+ }
+ 
+ @media only screen and (max-width: 1250px) {
+	 .testing_main_part2_txt{ padding-top:24px;}
+	 
+	 .car_oil_wrap .car_oil{ height:1944px; overflow:hidden;}
+	 .grease_wrap .car_oil{ height:975px;}
+	.ry_about_part2_l .ry_about_part2_l_txt{ padding:10px; top:38px;}
+	.ry_about_part2_l .ry_about_part2_l_txt h4{ margin-bottom:0;}
+	.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt{ padding:10px 2%; height:174px; } 
+	.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt h4{ line-height:34px;}
+	.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt br{ display:none;}
+	.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt > a{ top:2px;}
+	.ry_about_part2_r .ry_about_part2_r_bottom p br{ display:none;}
+	.ry_about_part2_r .ry_about_part2_r_top{ height:193px;}
+	.ry_about_part2_r .ry_about_part2_r_bottom{ height:166px;}
+	.ry_about_part2_r .ry_about_part2_r_bottom h4{ line-height:44px;}
+	.ry_about_part2_r .ry_about_part2_r_bottom p{ width:90%; margin:0 auto;}
+	.ry_about_part2{ margin-bottom:20px;}
+	.ry_about_part3_l_txt{ left:20px;}
+	.ry_about_part3_r{ height:375px;}
+	.ry_about_part3_l{ height:375px;}
+	.ry_about_part3_l_txt{ top:40px;}
+	.ry_about_index .ry_about_index_txt{ top:40px;}
+	.ry_about_part4_l{ width:560px; margin-right:4px;}
+	.ry_about_part4_l_top{ margin-bottom:2px;}
+	.ry_about_part4_l_top_l{ width:279px; height:210px; margin-right:2px;}
+	.ry_about_part4_l_top_r{ width:279px; height:210px;}
+	.ry_about_part4_l_top_box{ width:436px; height:328px;}
+	.ry_about_part4_r{ width:434px;}
+	.ry_about_part4_r_bottom{ width:434px; height:327px;}
+	.ry_about_part4_r_top{ padding-top:0;}
+	.ry_about_part5_top > h4{ line-height:120px;}
+	
+	.ry_scroll_box li span{ display:block; position:absolute; left:0; top:0; background:url(../images/ry_play_menu1.png) no-repeat center; width:100%; height:100%;}
+	.ry_sociology_tab span{ margin-right:10px;}
+	.ry_sociology_list li a.ry_sociology_imgLink span{ font-size:20px; width:80px; height:32px; line-height:32px;}
+	.ry_sociology_list li{ padding-bottom:16px;}
+	.ry_sociology_banner{ margin-bottom:30px;}
+	.ry_sociology_tab{ padding:10px 0;}
+	.ry_sociology_list dt a{ font-size:20px;}
+	.ry_sociology_list li{ margin-bottom:40px;}
+	
+	.news_l_top_part h4,.news_l_top_part h4 span,.news_l_main li h4 a,.ry_news_hot h4 span,.ry_news_active h4 a,.ry_news_magazine h4 a{ font-size:20px;}
+	.news_l_main li h4{ line-height:42px;}
+	.news_l_main li span{ font-size:24px;}
+	.ry_news_hot h4,.ry_news_magazine h4,.ry_news_active h4{ padding-bottom:10px;}
+	
+	.car_oil_wrap .car_oil_txt h4,.car_oil_wrap .car_oil_part10 .car_oil_txt h4,.grease_wrap .car_oil_txt h4,.grease_wrap .car_oil_part2 .car_oil_txt h4,.grease_wrap .car_oil_part4 .car_oil_txt h4,.grease_wrap .car_oil_part5 .car_oil_txt h4,.grease_wrap .car_oil_part6 .car_oil_txt h4,.maintenance_wrap .car_oil_txt h4,.maintenance_wrap .car_oil_part2 .car_oil_txt h4,.maintenance_wrap .car_oil_part4 .car_oil_txt h4,.maintenance_wrap .car_oil_part5 .car_oil_txt h4,.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:20px;}
+	 .car_oil_wrap .car_oil_txt h5,.grease_wrap .car_oil_txt h5,.maintenance_wrap .car_oil_txt h5{ font-size:12px;}
+	 
+	 .maintenance_wrap .car_oil_part5 .car_oil_txt{ width:310px;}
+	 .maintenance_wrap .car_oil_part6 .car_oil_txt{ margin-top:-60px;}
+	 .grease_wrap .car_oil_part3 .car_oil_txt{ width:280px;}
+	 .grease_wrap .car_oil_part2 .car_oil_txt{ margin-left:-190px;}
+	 
+	 
+	 .ry_news_media_h_right{ padding-top:20px; padding-bottom:20px;}
+	 
+	 .ind_list_txt{ top:20px;}
+	 .ind_list_txt p br{ display:none;}
+	 
+	 .industry_list_new_part2 ul li{ margin-right:1.6%;}
+	 
+	 .ry_new_bottom_r li a{ width:70%;}
+	 .ry_new_bottom h4{ line-height:70px; font-size:24px;}
+	 
+	 
+	 
+	 .industry_list_new_part1Wrap{ width:256px; height:110px; position:absolute; left:50%; top:50%; margin:-55px 0 0 -128px;}
+.industry_list_new_part1Wrap h4{ line-height:46px; position:relative; font-size:26px; margin-bottom:24px; text-align:center; font-weight:normal;}
+.industry_list_new_part1Wrap p{ width:100%; line-height:20px; font-size:12px; text-transform:uppercase; text-align:center; font-weight:bold; font-family:Arial;}
+
+.in_researchtt_wrap .industry_list_new_part1Wrap{ height:70px;}
+
+.invtag_main_box > p{ font-size:14px;}
+
+
+ }
+ 
+ @media only screen and (max-width: 1023px) {
+	 .ind_list_txt{ position:relative; top:10px; padding-bottom:20px;}
+	 
+	 .ld-pb li{ width:47% !important; }
+	 .car_oil_wrap .car_oil{ width:736px; height:1492px; overflow:hidden;}
+	 .grease_wrap .car_oil,.maintenance_wrap .car_oil{ width:736px; height:736px; overflow:hidden;}
+	 
+	.car_oil_wrap .car_oil_part1 .car_oil_txt{ width:176px; margin-left:-89px; top:20px;}
+	.car_oil_wrap .car_oil_txt_header{ padding:10px 0;}
+	.car_oil_wrap .car_oil_txt_main{ padding-top:0;}
+	.car_oil_txt_main br{ display:none;}
+	.car_oil_wrap .car_oil_part2 .car_oil_txt{ margin-left:-158px; width:160px; margin-top:-114px;}
+	.car_oil_wrap .car_oil_part3 .car_oil_txt{ margin-left:-158px; margin-top:-108px; width:160px;}
+	.car_oil_wrap .car_oil_part4 .car_oil_txt{ left:60px; width:290px;}
+	.car_oil_wrap .car_oil_part5 .car_oil_txt{ top:68px; margin-left:-184px;}
+	.car_oil_wrap .car_oil_part8 .car_oil_txt{ width:160px; margin-left:-158px; margin-top:-120px;}
+	.car_oil_wrap .car_oil_part10 .car_oil_txt{ margin-top:-40px; width:410px; margin-left:-208px;}
+	.car_oil_wrap .car_oil_part9 .car_oil_txt{ margin-top:-50px;}
+	.car_oil_wrap .car_oil_part12 .car_oil_txt{ margin-left:-158px; margin-top:-108px; width:160px;}
+	.car_oil_wrap .car_oil_part13 .car_oil_txt{ width:176px; margin-left:-89px; top:20px;}
+	
+	.grease_wrap .car_oil_part1 .car_oil_txt,.maintenance_wrap .car_oil_part2 .car_oil_txt{ width:176px; margin-left:-89px; top:20px; margin-top:0;}
+	.grease_wrap .car_oil_txt_header{ padding:12px 0;}
+	.grease_wrap .car_oil_part3 .car_oil_txt{ width:160px; margin-left:-158px;}
+	.grease_wrap .car_oil_part4 .car_oil_txt{ width:310px; margin-left:-152px;}
+	.maintenance_wrap .car_oil_part1 .car_oil_txt{ top:74px;}
+	.maintenance_wrap .car_oil_part3 .car_oil_txt{ margin-top:-50px; margin-left:-178px; width:360px;}
+	.maintenance_wrap .car_oil_part5 .car_oil_txt{ margin-left:-156px;}
+	
+	
+	
+	
+	.ry_about_part2_l,.ry_about_part2_r{ width:100%; margin-bottom:20px;}
+	.ry_about_part2_l .ry_about_part2_l_txt,.ry_about_index .ry_about_index_txt,.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt,.ry_about_part3_l_txt,.ry_about_part4_r_top,.ry_about_part7 li{ position:relative; top:0; width:96%; height:auto; padding:10px 2% 30px 2%; left:0;}
+	.ry_about_index .ry_about_index_txt{ color:#000;}
+	.ry_about_index .ry_about_index_txt h4{ font-size:16px; line-height:30px;}
+	.ry_about_index .ry_about_index_txt p{ font-size:12px; line-height:22px;}
+	.ry_about_index .ry_about_index_txt br{ display:none;}
+	.ry_about_index .ry_about_index_txt{ padding-bottom:10px;}
+	
+	.ry_about_part2_r_top,.ry_about_part3_r,.ry_about_part3_l,.ry_about_part4_l_top,.ry_about_part4_l,.ry_about_part4_l_top_box,.ry_about_part4_r,.ry_about_part4_r_bottom{ width:100%; height:auto; margin-bottom:20px;}
+	.ry_about_part2_r .ry_about_part2_r_top{ height:auto;}
+	.ry_about_part3_l_txt{ background:none; border:1px solid #0069c7;}
+	.ry_about_part3_l{ background:none;}
+	
+	.ry_about_part4_l_top{ overflow:hidden; width:103%;}
+	.ry_about_part4_l_top_l{ width:49%; height:auto; margin-right:1%;}
+	.ry_about_part4_l_top_r{ width:49%; height:auto; margin-right:1%;}
+	
+	.ry_about_part4_l_top_l img, .ry_about_part4_l_top_l img, .ry_about_part4_l_top_r img, .ry_about_part4_l_top_box img, .ry_about_part4_r_bottom img{ height:auto;}
+	
+	.ry_about_part4_l{ margin-right:0; overflow:hidden;}
+	
+	.ry_about_part6{ margin-bottom:20px;}
+	.ry_about_part7 li{ padding:0 2%; margin-bottom:20px;}
+	.ry_about_part7 li h4{ margin-bottom:10px;}
+	
+	.ry_about_part5_top > h4{ line-height:40px;}
+	.ry_scroll_wrap{ margin-top:0;}
+	.ry_Scroll_l,.ry_Scroll_l:hover{ background-size:60% auto;}
+	.ry_Scroll_r,.ry_Scroll_r:hover{ background-size:60% auto;}
+	
+	.ry_honor_p5{ margin-bottom:20px;}
+	.ry_honor_part2 ul{ width:100%;}
+	.ry_honor_part2 li{ width:100%; margin:0 auto 20px; height:auto !important}
+	
+	.ry_banner_other .ry_media_ban_txt{ position:relative; left:0; bottom:auto; width:96%; padding:20px 2%;}
+	.ry_banner_other .ry_media_ban_txt h4{ font-size:16px; line-height:22px; margin-bottom:10px;}
+	.ry_banner_other .ry_media_ban_txt p{ font-size:12px;}
+	.ry_banner_other{ margin-bottom:20px;}
+	.ry_media_part1 h4{ margin-bottom:20px; line-height:30px; font-size:16px;}
+	.ry_media_part1 ul li p{ line-height:18px; height:36px; overflow:hidden; font-size:12px; padding:6px 0;}
+	.ry_media_part1{ margin-bottom:20px;}
+	.ry_media_part1 ul li a.down_link{ top:0;}
+	.ry_video{ padding:20px 0 0;}
+	.ry_video > h4{ font-size:16px; line-height:24px; margin-bottom:20px;}
+	.ry_video > h4 span{ font-size:12px; line-height:24px; top:0; font-family:Arial;}
+	.ry_media_part1 ul li{ width:47%; margin-left:-1px; position:relative; left:1px; margin-right:2.6%;}
+	
+	.ry_sociology_tab span{ font-size:16px; margin-right:10px;}
+	.ry_sociology_tab{ padding:4px 0;}
+	.ry_sociology_list dt{ margin-bottom:4px;}
+	.ry_sociology_list dt a{ font-size:16px;}
+	.ry_sociology_list dt{ line-height:24px; height:48px;}
+	.ry_sociology_list1 dt{ height:auto;}
+	.ry_sociology_list dd{ font-size:12px;}
+	.ry_sociology_list li{ margin-bottom:20px;}
+	.ry_sociology_banner_txt{ position:relative; top:0; width:100%; left:0;}
+	.ry_sociology_banner_txt h4{ font-size:16px; color:#000; line-height:34px;}
+	.ry_sociology_banner_txt p{ color:#000;}
+	.ry_sociology_banner_txt p br{ display:none;}
+	
+	.ry_sociology_list1 li{ width:44%;}
+	
+	.news_l{ width:100%; margin:0; margin-bottom:20px;}
+	.news_r{ width:100%;}
+	.news_l_top_part h4 a{ width:100%; max-width:100%;}
+	.news_l_top_main_l{ width:100%; margin:0 auto 20px;}
+	.news_l_top_main_r{ width:100%;}
+	.news_l_top_main_r_txt{ width:100%;}
+	.news_l_top_main_r .news_l_top_main_r_txt{ margin-bottom:10px;}
+	.news_l_bottom ul li{ width:48%; margin-bottom:10px;}
+	.news_l_bottom{ padding-bottom:10px;}
+	.ry_news_active ul dl dt{ width:100%; margin-right:0; margin-bottom:10px;}
+	.ry_news_active ul dl dd{ width:100%; font-size:16px;}
+	.news_l_top_part h4,.news_l_top_part h4 span,.news_l_main li h4 a,.ry_news_hot h4 span,.ry_news_active h4 a,.ry_news_magazine h4 a{ font-size:16px;}
+	.ry_news_hot li a,.news_l_main li p,.news_l_bottom ul li a p,.news_l_top_main_r_txt p{ font-size:12px;}
+	
+	.ry_sociology_list li{ width:44%;}
+	.ry_sociology_tab span{ font-size:12px;}
+	
+	.ry_about_part2_r .ry_about_part2_r_bottom h4,.ry_about_part2_l .ry_about_part2_l_txt h4,.ry_about_part2_r .ry_about_part2_r_top .ry_about_part2_r_txt h4,.ry_about_part3_l_txt span,.ry_about_part3_l_txt h4,.ry_about_part4_r_top h4,.ry_about_part5_top > h4 a,.ry_about_part6 a{ font-size:16px;}
+	.ry_about_part3_l_txt span{ line-height:26px;}
+	.ry_about_part4_r_top h5{ font-size:14px;}
+	.ry_about_part4_r_top h4{ line-height:18px;}
+	.ry_about_part4_l,.ry_about_part4{ margin-bottom:0;}
+	.ry_about_part6 a{ right:28px; bottom:25px;}
+	
+	.ry_about_part2_r .ry_about_part2_r_bottom > a{ top:0;}
+	.footer_link li dt a{ font-size:16px;}
+	.footer_link li dd a{ font-size:12px;}
+	.footer_link li.foot_double h4 a{ font-size:16px;}
+	.footer{ padding-top:20px;}
+	
+	.ry_news_tab a{ margin-right:4px; font-size:12px; padding:0 10px;}
+	
+	.dhq_pro_online_list1 > h4,.dhq_pro_online_list1 > h4 span{ font-size:16px; top:0; line-height:36px;}
+	.dhq_pro_online_list1 > h4{ margin-bottom:20px;}
+	
+	.org_banner_txt{ color:#000; position:relative; left:0%; top:0; width:100%; padding:20px 0 0;}
+	.org_banner_txt h4{ line-height:28px; font-size:16px; font-weight:normal;}
+	.org_banner_txt p{ font-size:12px; line-height:18px;}
+	.org_banner_txt p br{ display:none;}
+	.org_tab{ padding-top:20px;}
+	.org_tab span{ font-size:16px;}
+	.org_title{ padding:20px 0;}
+	.org_bottom img{ margin:0; width:100%; height:auto; float:none; margin-bottom:20px;}
+	.org_tab{ padding:20px 0;}
+	
+	.org_title h4{ font-size:16px; margin-bottom:10px;}
+	
+	
+	.ry_news_media_header > a{ margin-top:0; width:100%; float:none; margin-bottom:20px;}
+	.ry_news_media_h_right{ position:relative; padding:0; float:none; clear:both; width:100%; border:0;}
+	.ry_news_media_h_right dl{ width:100%;}
+	
+	.ry_news_media_h_right span{ font-size:12px; line-height:18px; height:18px; width:74px;}
+	.ry_news_media_h_right dt{ padding:6px 0;}
+	.ry_news_media_h_right dt a{ font-size:16px;}
+	.ry_news_media_h_right dd{ font-size:12px;}
+	.ry_news_media_main_l{ width:100%; margin-right:0; margin-bottom:20px;}
+	.ry_news_media_main_r{ width:100%;}
+	.industry_list_new_part4_part p{ width:90%; margin:0 auto;}
+	.industry_list_new_part4_part p br{ display:none;}
+	
+	.history_main_header{ width:470px; padding-left:0;}
+	.history_main_header_box{ width:350px;}
+	.history_main_wrap{ width:700px;}
+	.history_main_wrap ul{ margin-left:-10%;}
+	.history_main_wrap li{ width:40%; padding-left:10%;}
+	
+	.ry_news_active ul li{ width:50%; float:left;}
+	.ry_news_active ul li dl{ width:90%; margin:0 auto;}
+	.ry_news_active ul dl dd a{ font-size:14px;}
+	
+	.expert_part2_bottom_menu span{ width:146px;}
+	.expert_part3_l li,.expert_part3_menu{ width:90%;}
+	.expert_part4_t, .expert_part4_b{ height:146px;}
+	
+	.expert_part4_t_rr h4, .expert_part4_t_rr h4 a, .expert_part4_t_lr h4, .expert_part4_t_lr h4 a{ line-height:30px; height:30px; overflow:hidden;}
+	.expert_part4_t_lr p,.expert_part4_t_rr p{ height:40px; line-height:20px; overflow:hidden;}
+	
+	.expert_part1_txt{ top:40px; left:40px;}
+	
+	.ind_list_txt p{ text-align:left;}
+	
+	.ry_new_bottom_l{ width:100%; margin-right:0%; float:left; margin-bottom:10px;}
+	.ry_new_bottom h4{ line-height:40px; font-size:16px;}
+	.ry_new_bottom_r li{ height:30px;}
+	.ry_new_bottom_r li a,.ry_new_bottom_r li span{ line-height:30px; font-size:12px;}
+	.ry_new_bottom_r{ width:100%; float:left; position:relative; left:1px; top:0; margin-left:-1px;}
+	.ry_new_bottom{ padding-top:10px;}
+	.share_self{ width:100%; height:354px;}
+	
+	.ry_about_index .ry_about_index_txt h4 a{ color:#000;}
+	
+	.industry_list_new_part4_part p{ height:140px;}
+	
+	.in_researchtt_wrap .industry_list_new_part1Wrap h4{ font-size:26px;}
+	.in_researchtt_wrap .industry_list_new_part1Wrap{ padding:10px;}
+	.in_researchtt_wrap .industry_list_new_article{ height:92px; padding:0 10px; font-size:12px; line-height:22px;}
+	
+	.indus_outer{ width:560px; margin-left:-280px; height:190px;}
+	.indus_outer a{ width:244px; height:76px;}
+	
+	.testing_main_part2_txt h4{ line-height:50px;}
+	.testing_main_part2_txt p{ line-height:25px;}
+	
+	.testing_main_part2_txt{ position:relative; padding-top:20px;}
+	
+ }
+ 
+  @media only screen and (max-width: 767px) {
+  	.ld-pb{ width:100% !important; }
+  	.ld-pb span{ width: 150px; }
+  	.ld-pb li{ width:99% !important; margin:0 0 10px !important; }
+	  .search_pro_r_l input{ width:94%;}
+	  .industry_list_new_part3_link_rr{ margin-right:0;}
+	  .industry_list_new_part3_link_rrr{}
+	  .industry_list_new_part3_link br{ display:block;}
+	  .car_oil_wrap  .car_oil{ width:96%; margin:0 auto; height:auto;}
+		 .car_oil_wrap .car_oil_part1,.car_oil_wrap .car_oil_part2,.car_oil_wrap .car_oil_part3,.car_oil_wrap .car_oil_part4,.car_oil_wrap .car_oil_part5,.car_oil_wrap .car_oil_part6,.car_oil_wrap .car_oil_part7,.car_oil_wrap .car_oil_part8,.car_oil_wrap .car_oil_part9,.car_oil_wrap .car_oil_part10,.car_oil_wrap .car_oil_part11,.car_oil_wrap .car_oil_part12,.car_oil_wrap .car_oil_part13{ position:relative; margin-bottom:20px;}
+	
+	.car_oil_wrap .car_oil_part1 img,.car_oil_wrap .car_oil_part2 img,.car_oil_wrap .car_oil_part3 img,.car_oil_wrap .car_oil_part4 img,.car_oil_wrap .car_oil_part5 img,.car_oil_wrap .car_oil_part6 img,.car_oil_wrap .car_oil_part7 img,.car_oil_wrap .car_oil_part8 img,.car_oil_wrap .car_oil_part9 img,.car_oil_wrap .car_oil_part10 img,.car_oil_wrap .car_oil_part11 img,.car_oil_wrap .car_oil_part12 img,.car_oil_wrap .car_oil_part1 img,.car_oil_wrap .car_oil_part13 img,.car_oil_wrap .car_oil_half_box{ width:100%; height:auto; position:relative; left:0; top:0; +width:100% !important; +height:100% !important; +left:0 !important; +top:0 !important;}
+	
+	.car_oil_wrap .ry_arr{ display:none;}
+	
+	.car_oil_wrap .car_oil a,.grease_wrap .car_oil a,.maintenance_wrap .car_oil a{ display:block; width:100%; height:auto;}
+	
+	.car_oil_wrap .car_oil_part1{ width:100%; height:auto;}
+	.car_oil_wrap .car_oil_part2{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part3{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part4{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part5{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part6{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part7{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part8{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part9{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part10{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part11{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part12{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part13{width:100%; height:auto; left:0; top:0;}
+	.car_oil_wrap .car_oil_part13 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	
+	.car_oil_wrap .car_oil_half_box{ overflow:hidden; background:#000;}
+	.car_oil_wrap .car_oil_half_box_l{ height:auto; width:50%;}
+	.car_oil_wrap .car_oil_half_box_r{ height:auto; width:50%; padding:20px 0;}
+	.car_oil_wrap .car_oil_txt{ position:relative;}
+	.car_oil_wrap .car_oil_part1 .car_oil_txt{ top:0;}
+	.car_oil_wrap .car_oil_part2 .car_oil_txt,.car_oil_wrap .car_oil_part3 .car_oil_txt,.car_oil_wrap .car_oil_part4 .car_oil_txt,.car_oil_wrap .car_oil_part5 .car_oil_txt,.car_oil_wrap .car_oil_part6 .car_oil_txt,.car_oil_wrap .car_oil_part7 .car_oil_txt,.car_oil_wrap .car_oil_part8 .car_oil_txt,.car_oil_wrap .car_oil_part9 .car_oil_txt,.car_oil_wrap .car_oil_part10 .car_oil_txt,.car_oil_wrap .car_oil_part11 .car_oil_txt,.car_oil_wrap .car_oil_part12 .car_oil_txt,.car_oil_wrap .car_oil_part13 .car_oil_txt{ top:0; margin-top:0; background:#000; left:0; margin-left:0; padding:20px 0; width:100%;}
+	.car_oil_wrap .hasTxtColorBlack h4{ color:#fff;}
+	.car_oil_wrap .car_oil_part13 .car_oil_half_box_r{ background:#000;}
+	
+	.car_oil_wrap .car_oil_part1 .car_oil_txt h4,.car_oil_wrap .car_oil_part2 .car_oil_txt h4,.car_oil_wrap .car_oil_part3 .car_oil_txt h4,.car_oil_wrap .car_oil_part4 .car_oil_txt h4,.car_oil_wrap .car_oil_part5 .car_oil_txt h4,.car_oil_wrap .car_oil_part6 .car_oil_txt h4,.car_oil_wrap .car_oil_part7 .car_oil_txt h4,.car_oil_wrap .car_oil_part8 .car_oil_txt h4,.car_oil_wrap .car_oil_part9 .car_oil_txt h4,.car_oil_wrap .car_oil_part10 .car_oil_txt h4,.car_oil_wrap .car_oil_part11 .car_oil_txt h4,.car_oil_wrap .car_oil_part12 .car_oil_txt h4,.car_oil_wrap .car_oil_part13 .car_oil_txt h4{ font-size:20px;}
+
+
+
+
+    .grease_wrap .car_oil{ width:96%; margin:0 auto; height:auto;}
+		 .grease_wrap .car_oil_part1,.grease_wrap .car_oil_part2,.grease_wrap .car_oil_part3,.grease_wrap .car_oil_part4,.grease_wrap .car_oil_part5,.grease_wrap .car_oil_part6,.grease_wrap .car_oil_part7,.grease_wrap .car_oil_part8,.grease_wrap .car_oil_part9,.grease_wrap .car_oil_part10,.grease_wrap .car_oil_part11,.grease_wrap .car_oil_part12,.grease_wrap .car_oil_part13{ position:relative; margin-bottom:20px;}
+	
+	.grease_wrap .car_oil_part1 img,.grease_wrap .car_oil_part2 img,.grease_wrap .car_oil_part3 img,.grease_wrap .car_oil_part4 img,.grease_wrap .car_oil_part5 img,.grease_wrap .car_oil_part6 img,.grease_wrap .car_oil_part7 img,.grease_wrap .car_oil_part8 img,.grease_wrap .car_oil_part9 img,.grease_wrap .car_oil_part10 img,.grease_wrap .car_oil_part11 img,.grease_wrap .car_oil_part12 img,.grease_wrap .car_oil_part1 img,.grease_wrap .car_oil_part13 img,.car_oil_half_box{ width:100%; height:auto; position:relative; left:0; top:0; +width:100% !important; +height:100% !important; +left:0 !important; +top:0 !important;}
+	
+	.grease_wrap .car_oil_part1 .car_oil_txt{ margin:0; left:0; top:0; width:100%; background:#000; padding:30px 0;}
+	
+	.grease_wrap .ry_arr{ display:none;}
+	
+	.grease_wrap .car_oil_part1{ width:100%; height:auto;}
+	.grease_wrap .car_oil_part2{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part3{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part4{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part5{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part6{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part7{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part8{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part9{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part10{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part11{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part12{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part13{width:100%; height:auto; left:0; top:0;}
+	.grease_wrap .car_oil_part13 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.grease_wrap .car_oil_part1 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.grease_wrap .car_oil_part4 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.grease_wrap .car_oil_half_box{ overflow:hidden;}
+	.grease_wrap .car_oil_half_box_l{ height:auto; width:100%;}
+	.grease_wrap .car_oil_half_box_r{ height:auto; width:100%; padding:20px 0;}
+	.grease_wrap .car_oil_txt{ position:relative;}
+	.grease_wrap .car_oil_part1 .car_oil_txt{ top:0;}
+	.grease_wrap .car_oil_part2 .car_oil_txt,.grease_wrap .car_oil_part3 .car_oil_txt,.grease_wrap .car_oil_part4 .car_oil_txt,.grease_wrap .car_oil_part5 .car_oil_txt,.grease_wrap .car_oil_part6 .car_oil_txt,.grease_wrap .car_oil_part7 .car_oil_txt,.grease_wrap .car_oil_part8 .car_oil_txt,.grease_wrap .car_oil_part9 .car_oil_txt,.grease_wrap .car_oil_part10 .car_oil_txt,.grease_wrap .car_oil_part11 .car_oil_txt,.grease_wrap .car_oil_part12 .car_oil_txt,.grease_wrap .car_oil_part13 .car_oil_txt{ top:0; margin-top:0; background:#000; left:0; margin-left:0; padding:20px 0; width:100%;}
+	.grease_wrap .hasTxtColorBlack h4{ color:#fff;}
+	.grease_wrap .car_oil_part13 .car_oil_half_box_r{ background:#000;}
+	
+	.grease_wrap .car_oil_part1 .car_oil_txt h4{ font-size:20px;}
+	.grease_wrap .car_oil_part2 .car_oil_txt h4{ font-size:20px;}
+	.grease_wrap .car_oil_part3 .car_oil_txt h4{ font-size:20px;}
+	.grease_wrap .car_oil_part4 .car_oil_txt h4{ font-size:20px;}
+	.grease_wrap .car_oil_part5 .car_oil_txt h4{ font-size:20px;}
+	.grease_wrap .car_oil_part6 .car_oil_txt h4{ font-size:20px;}
+	
+	.grease_wrap .car_oil_txt_main{ font-size:12px;}
+
+.industry_list_new_part4_part p{ height:auto;}
+
+    .maintenance_wrap .car_oil{ width:96%; margin:0 auto; height:auto;}
+		 .maintenance_wrap .car_oil_part1,.maintenance_wrap .car_oil_part2,.maintenance_wrap .car_oil_part3,.maintenance_wrap .car_oil_part4,.maintenance_wrap .car_oil_part5,.maintenance_wrap .car_oil_part6,.maintenance_wrap .car_oil_part7,.maintenance_wrap .car_oil_part8,.maintenance_wrap .car_oil_part9,.maintenance_wrap .car_oil_part10,.maintenance_wrap .car_oil_part11,.maintenance_wrap .car_oil_part12,.maintenance_wrap .car_oil_part13{ position:relative; margin-bottom:20px;}
+	
+	.maintenance_wrap .car_oil_part1 img,.maintenance_wrap .car_oil_part2 img,.maintenance_wrap .car_oil_part3 img,.maintenance_wrap .car_oil_part4 img,.maintenance_wrap .car_oil_part5 img,.maintenance_wrap .car_oil_part6 img,.maintenance_wrap .car_oil_part7 img,.maintenance_wrap .car_oil_part8 img,.maintenance_wrap .car_oil_part9 img,.maintenance_wrap .car_oil_part10 img,.maintenance_wrap .car_oil_part11 img,.maintenance_wrap .car_oil_part12 img,.maintenance_wrap .car_oil_part1 img,.maintenance_wrap .car_oil_part13 img,.maintenance_wrap .car_oil_half_box{ width:100%; height:auto; position:relative; left:0; top:0; width:100% !important; height:100% !important; left:0 !important; top:0 !important;}
+	
+	.maintenance_wrap .car_oil_part1 .car_oil_txt{ margin:0; left:0; top:0; width:100%; background:#000; padding:30px 0;}
+	
+	.maintenance_wrap .ry_arr{ display:none;}
+	
+	.maintenance_wrap .car_oil_part1{ width:100%; height:auto;}
+	.maintenance_wrap .car_oil_part2{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part3{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part4{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part5{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part6{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part7{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part8{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part9{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part10{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part11{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part12{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part13{width:100%; height:auto; left:0; top:0;}
+	.maintenance_wrap .car_oil_part13 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.maintenance_wrap .car_oil_part2 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.maintenance_wrap .car_oil_part4 .car_oil_txt_main{ width:96%; margin:0 auto;}
+	.maintenance_wrap .car_oil_half_box{ overflow:hidden;}
+	.maintenance_wrap .car_oil_half_box_l{ height:auto; width:100%;}
+	.maintenance_wrap .car_oil_half_box_r{ height:auto; width:100%; padding:20px 0;}
+	.maintenance_wrap .car_oil_txt{ position:relative;}
+	.maintenance_wrap .car_oil_part1 .car_oil_txt{ top:0;}
+	.maintenance_wrap .car_oil_part2 .car_oil_txt,.maintenance_wrap .car_oil_part3 .car_oil_txt,.maintenance_wrap .car_oil_part4 .car_oil_txt,.maintenance_wrap .car_oil_part5 .car_oil_txt,.maintenance_wrap .car_oil_part6 .car_oil_txt,.maintenance_wrap .car_oil_part7 .car_oil_txt,.maintenance_wrap .car_oil_part8 .car_oil_txt,.maintenance_wrap .car_oil_part9 .car_oil_txt,.maintenance_wrap .car_oil_part10 .car_oil_txt,.maintenance_wrap .car_oil_part11 .car_oil_txt,.maintenance_wrap .car_oil_part12 .car_oil_txt,.maintenance_wrap .car_oil_part13 .car_oil_txt{ top:0; margin-top:0; background:#000; left:0; margin-left:0; padding:20px 0; width:100%;}
+	.hasTxtColorBlack h4{ color:#fff;}
+	.maintenance_wrap .car_oil_part13 .car_oil_half_box_r{ background:#000;}
+	
+	.maintenance_wrap .car_oil_part1 .car_oil_txt h4{ font-size:20px;}
+	.maintenance_wrap .car_oil_part2 .car_oil_txt h4{ font-size:20px;}
+	.maintenance_wrap .car_oil_part3 .car_oil_txt h4{ font-size:20px;}
+	.maintenance_wrap .car_oil_part4 .car_oil_txt h4{ font-size:20px;}
+	.maintenance_wrap .car_oil_part5 .car_oil_txt h4{ font-size:20px;}
+	.maintenance_wrap .car_oil_part6 .car_oil_txt h4{ font-size:20px;}
+	
+	.maintenance_wrap .car_oil_txt_main{ font-size:12px;}
+	  .car_oil_wrap .car_oil_half_box_l{ height:auto; width:100%;}
+	.car_oil_wrap .car_oil_half_box_r{ height:auto; width:100%; padding:20px 0;}
+	
+	
+	.ind_list_txt h5{ line-height:30px; font-size:18px;}
+	.ind_list_txt p{ font-size:12px;}
+	.industry_list_new_part2 h4{ padding:10px 0;}
+	.industry_list_new_part2{ padding-bottom:10px;}
+	.industry_list_new_part3, .industry_list_new_part4{ padding:10px 0;}
+	.industry_list_new_part4{ padding-bottom:0;}
+	.industry_list_new_part3_l{ width:100%; float:none;}
+	.industry_list_new_part3_l img{ width:60%; margin-left:20%;}
+	.industry_list_new_part3_r{ float:none; width:90%; margin:0 auto; padding-top:10px;}
+	.industry_list_new_part3_link{ padding-top:10px; padding-bottom:10px;}
+	.industry_list_new_part4_part{ width:100%; padding-top:20px;}
+	.industry_list_new_part2 ul li{ width:47%; margin-bottom:10px;}
+	.industry_list_new_part4_part p{ margin-bottom:10px;}
+	
+	.indus_outer{ width:90%; background:#fff; position:fixed; left:50%; margin-left:-45%; top:50%; z-index:900302; border:1px solid #ccc; display:none;}
+	.indus_outer a{ width:50%; height:auto;}
+	.industry_list_new_part4_l{ width:100%;}
+	.industry_list_new_part4 .industry_list_new_part3_link_r{ margin-right:46px;}
+	.industry_list_new_part3_link_l{ margin-right:46px;}
+	
+	.search_pro_r{ float:none; width:320px; margin-bottom:10px;}
+	.search_pro_l{ float:none;}
+	.search_pro_r_l{ width:240px; margin-bottom:10px;}
+	.search_pro_list p{ width:100%; font-size:12px;}
+	.search_main > h4{ font-size:20px; line-height:34px;}
+	.search_main ul{ padding-bottom:0;}
+	
+	.history_main_header{ width:270px; padding-left:0;}
+	.history_main_header_box{ width:150px;}
+	.history_main_wrap{ width:100%;}
+	.history_main_wrap ul{ margin-left:-8%;}
+	.history_main_wrap li{ width:40%; padding-left:9%;}
+	
+	.industry_list_new_part22 ul li{ width:95%;}
+	
+	.ry_media_part1 ul li a.down_link{ float:none; display:block; width:50px; margin:0 auto 10px;}
+	.ry_media_part1 ul li a.down_link1{ clear:both; display:block;}
+	.ry_media_part1 ul li p{ width:93%;}
+	.dhq_share{ clear:both;}
+	
+	.dhq_pro_case_list li .p_txt em{ clear:both;}
+	
+	.expert_part1_txt{ position:relative; top:0; left:0; width:100%;}
+	.expert_part1_txt h4, .expert_part1_txt h4 a{ color:#000; font-size:16px; line-height:24px;}
+	.expert_part1_txt h5{ font-size:14px; color:#000; line-height:20px;}
+	.expert_part1_txt p{ font-size:12px; color:#000;}
+	.expert_part3_l ul li{ width:90%;}
+	.expert_part1{ margin-bottom:10px;}
+	
+	.expert_part2_l,.expert_part2_r{ width:100%; padding-left:0;}
+	.expert_part2_r h4{ line-height:24px;}
+	.expert_part2_r p{ width:100%;}
+	.expert_part2_r p{ margin-bottom:4px;}
+	.expert_part2_bottom h4{ font-size:16px; line-height:24px;}
+	.expert_part2_bottom h4{ margin-bottom:10px;}
+	
+	.expert_part2_bottom_menu span{ margin:0; width:100%; margin-bottom:10px;}
+	.expert_part2_bottom{ padding-bottom:0;}
+	
+	.expert_part3_l{ width:100%; padding:0;}
+	.expert_part3{ width:100%;}
+	.expert_part3_l ul li{ margin-bottom:4px;}
+	.expert_part3_l ul{ margin-bottom:10px;}
+	.expert_part3_menu{ width:100%;}
+	
+	.expert_part2{ margin-bottom:10px;}
+	.expert_part3_r{ width:100%;}
+	.expert_part3{ margin-bottom:10px;}
+	.expert_part4_t_l, .expert_part4_t_lr, .expert_part4_t_l > img, .expert_part4_t_r, .expert_part4_t_r img, .expert_part4_b_l, .expert_part4_b_r, .expert_part4_b_l img{ width:100%;}
+	.expert_part4_t, .expert_part4_b{ height:auto;}
+	.expert_part4_t_lr{ padding-bottom:18px;}
+	.expert_part4_t_lr{ width:92%; padding:18px 4%;}
+	.expert_part4_t_rr{ width:92%; padding:18px 4%;}
+	
+	.industry_new_menu{ padding:0 0 20px 0;}
+	
+	.in_researchtt_wrap{ position:relative; width:100%; height:auto !important; padding-bottom:10px;}
+	.in_researchtt_wrap .industry_list_new_article{ height:auto;}
+	.in_researchtt_wrap{}
+	
+	.industry_list_new_part1Wrap{ height:80px; margin-top:-40px;}
+	.industry_list_new_part1Wrap h4{ font-size:18px; margin-bottom:10px; }
+	.dhq_news_article{ margin-top:20px;}
+	
+	.new_water_list li{ float:none; width:100%; margin-bottom:10px; padding-bottom:20px;}
+	.new_water_list_r h4{ line-height:36px; font-size:16px;}
+	.new_water_list_r p{ font-size:12px; line-height:20px;}
+	
+	.new_water_list_max h4{ font-size:16px;}
+	.new_water_list_max p{ font-size:12px;}
+	
+	.in_researchtt_wrap1 .industry_list_new_part1Wrap1 p{ font-size:12px; line-height:24px;}
+	.testing_main_part1{ padding-top:20px; margin-bottom:20px;}
+	.testing_main_part1 > img{ width:100%; margin-right:0; margin-bottom:20px;}
+	
+	
+	.indus_outer{ padding-left:0; height:auto;}
+	.indus_outer a{ width:80%; margin:0 auto 20px; float:none; display:block;}
+	.indus_outer a img{ height:auto;}
+	
+	.ccrhy_newpage_part1 h4,.ccrhy_newpage_part3_r h4{ font-size:18px;}
+	.ccrhy_newpage_part1 p,.ccrhy_newpage_part3_r p{ font-size:12px; line-height:20px;}
+	.ccrhy_newpage_part2_l{ width:100%; float:none;}
+	.ccrhy_newpage_part2_r{ width:100%; float:none;}
+	.ccrhy_newpage_part3_l{ width:100%; float:none;}
+	.ccrhy_newpage_part3_r{ width:100%; float:none;}
+	.ccrhy_newpage_part3_l{height:520px; overflow:hidden;}
+	.ccrhy_newpage_part3_l .share_self{ height:520px;}
+	
+	.invtag_main_box > p{ font-size:12px;}
+	.invtag_main_box{ margin:0 10px;}
+	
+	.invtag_main_list_r dl.two_line dd{ margin-right:0; width:95%;}
+	.invtag_main_list_r dl.four_line dd{ width:44%; margin-right:5%;}
+	.invtag_main_list_r dd{ font-size:12px;}
+	.invtag_main{ padding:10px 0;}
+	.invtag_main_list ul{ margin-bottom:10px;}
+	.invtag_main_list{ padding-top:10px;}
+	  
+	  .invtag_main_list_r dd{ clear:both;}
+  }
+  
+  
+
+  

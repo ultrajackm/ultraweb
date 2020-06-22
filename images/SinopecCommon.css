@@ -1,0 +1,612 @@
+.nav-wrapper a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav-wrapper a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav-wrapper a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav-wrapper a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+a:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a:hover {
+	color: rgb(27, 81, 171); text-decoration: none;
+}
+a:active {
+	color: rgb(27, 81, 171); text-decoration: none;
+}
+body {
+	background: rgb(238, 238, 238); color: rgb(139, 139, 139); font-family: "ËÎÌå", "Microsoft Yahei UI","Microsoft Yahei","Î¢ÈíÑÅºÚ",SimSun,sans-serif; font-size: 12px;
+}
+.header {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 960px;
+}
+.top {
+	height: 80px;
+}
+.top_logo {
+	width: 450px; height: 69px; padding-top: 11px; float: left;
+}
+.top_link {
+	width: 490px; padding-right: 18px; float: right;
+}
+.top_link_link {
+	width: 490px; text-align: right; padding-top: 15px; _letter-spacing: -1px;
+}
+.top_link_search {
+	padding-top: 15px;
+}
+.top_link_search_txt {
+	height: 25px; padding-left: 100px; float: right;
+}
+.top_link_search_txt input {
+	padding: 2px 5px; border: 1px solid rgb(124, 157, 188); width: 125px; height: 19px;
+}
+.top_link_search_btn {
+	width: 29px; height: 25px; float: right; cursor: pointer; _margin-top: 1px;
+}
+.top_link_search_btn img {
+	width: 29px; height: 25px;
+}
+.nav-wrapper {
+	width: 960px; height: 41px; text-align: center; color: rgb(255, 255, 255); line-height: 41px; font-size: 14px; font-weight: bold;
+}
+.nav {
+	background: url("/sites/sinolube/Themes/Image/nav-bg.gif") repeat-x; width: 948px; height: 41px; float: left;
+}
+.nav-left {
+	background: url("/sites/sinolube/Themes/Image/nav-left.gif") no-repeat center; width: 6px; height: 41px; float: left;
+}
+.nav-right {
+	background: url("/sites/sinolube/Themes/Image/nav-right.gif") no-repeat center; width: 6px; height: 41px; float: left;
+}
+.nav-item {
+	background: url("/sites/sinolube/Themes/Image/nav-line.gif") no-repeat right; width: 137px; height: 41px; float: left;
+}
+.nav-item-left {
+	background: url("/sites/sinolube/Themes/Image/nav-line.gif") no-repeat right; width: 137px; height: 41px; float: left;
+}
+.nav-item-right {
+	background: url("/sites/sinolube/Themes/Image/nav-line.gif") no-repeat right; width: 137px; height: 41px; float: left;
+}
+.nav-item-left {
+	width: 131px;
+}
+.nav-item-right {
+	width: 131px;
+}
+.nav-item-right {
+	background: none;
+}
+.nav-item a:link {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.nav-item a:visited {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.nav-item a:hover {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.nav-item a:active {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.nav-bottom {
+	background: url("/sites/sinolube/Themes/Image/pic_nav_bottom.png") repeat-x left; width: 960px; height: 4px; overflow: hidden; clear: both;
+}
+.masterbody {
+	margin: 0px auto; width: 960px;
+}
+.footer {
+	margin: 0px auto; width: 960px; height: 126px;
+}
+.footer_record {
+	height: 39px;
+}
+.footer_record_left {
+	background: rgb(157, 157, 157); width: 945px; line-height: 39px; float: left;
+}
+.footer_record_right {
+	background: url("/sites/sinolube/Themes/Image/footer-right.gif") no-repeat center; width: 15px; height: 39px; float: left;
+}
+.footer_record_info {
+	width: 450px; text-align: left; color: rgb(255, 255, 255); padding-left: 15px; float: left;
+}
+.footer_record_link {
+	width: 450px; text-align: right; color: rgb(255, 255, 255); float: right;
+}
+.footer_record_link a:link {
+	color: rgb(255, 255, 255);
+}
+.footer_record_link a:visited {
+	color: rgb(255, 255, 255);
+}
+.footer_record_link a:hover {
+	color: rgb(255, 255, 255);
+}
+.footer_record_link a:active {
+	color: rgb(255, 255, 255);
+}
+.footer_record_link a {
+	padding-right: 8px; padding-left: 8px;
+}
+.footer_record_link a.nopadding {
+	padding-right: 0px;
+}
+.footer_link {
+	height: 87px; text-align: center;
+}
+.footer_link_img {
+	background: url("/sites/sinolube/Themes/Image/logo_bottom.png") no-repeat center; width: 52px; height: 52px; margin-top: 13px; margin-left: 164px; float: left; _margin-left: 82px; _background: none;
+}
+.footer_link_txt {
+	text-align: left; line-height: 22px; padding-top: 18px; padding-left: 11px; float: left;
+}
+.layout-head {
+	width: 300px; height: 27px;
+}
+.layout-head-left {
+	background: rgb(45, 131, 204); width: 276px; height: 27px; text-align: left; color: rgb(255, 255, 255); line-height: 27px; letter-spacing: 2px; padding-left: 10px; font-weight: bold; float: left;
+}
+.layout-head-left-more {
+	float: right;
+}
+.layout-head-left-more a {
+	color: rgb(255, 255, 255);
+}
+.layout-head-right {
+	background: url("/sites/sinolube/Themes/Image/title_blue2c83cc_r.png") no-repeat center; width: 14px; height: 27px; float: right; _background: none;
+}
+.layout-content {
+	padding: 10px; width: 278px; border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.layout-foot {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.container {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 960px; overflow: hidden; clear: both;
+}
+.conlumntwo-frist {
+	width: 615px; margin-left: 15px; float: left; display: inline;
+}
+.conlumntwo-second {
+	width: 300px; margin-left: 15px; float: left; display: inline;
+}
+.conlumnthree {
+	width: 300px; margin-left: 15px; float: left; display: inline;
+}
+.column-left {
+	width: 230px; text-align: center; float: left;
+}
+.column-right {
+	width: 729px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; float: right;
+}
+.conlumn-right-nav {
+	text-align: left; line-height: 26px; padding-left: 25px; font-family: ËÎÌå,Arial,Helvetica,sans-serif; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.w_sitenav_list li {
+	
+}
+.w_sitenav_list li a {
+	background: url("/sites/sinolube/Themes/Image/left_nav_bg.png") no-repeat center; margin: 0px auto; width: 207px; height: 36px; line-height: 36px; font-size: 14px; font-weight: bold; display: block; _background: none;
+}
+.w_sitenav_list2 {
+	padding-left: 25px; float: left;
+}
+.w_sitenav_list2 li a {
+	background: none; width: 176px; clear: both; font-size: 12px; font-weight: normal; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed; float: left; display: block;
+}
+.w_sitenav_list a.aSelect {
+	font-weight: bold;
+}
+.conlumn-right-one {
+	padding-top: 20px; padding-left: 30px; float: left;
+}
+.conlumn-right-two {
+	width: 320px; padding-top: 10px; padding-right: 10px; float: left;
+}
+.t-layout-content {
+	width: 670px; text-align: left; color: rgb(102, 102, 102);
+}
+.t-layout-content h1 {
+	width: 670px; color: rgb(94, 157, 172); line-height: 36px; font-size: 18px; font-weight: bold; margin-bottom: 20px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.t-layout-content p {
+	margin: 0px; line-height: 24px; text-indent: 2em;
+}
+.t-product-layout-content {
+	width: 460px; text-align: left; color: rgb(102, 102, 102);
+}
+.t-product-layout-content h1 {
+	width: 460px; color: rgb(94, 157, 172); line-height: 36px; font-size: 18px; font-weight: bold; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.t-product-layout-content p {
+	margin: 0px; line-height: 24px; text-indent: 2em;
+}
+.w_newslistpage_box {
+	overflow: hidden;
+}
+.w_newslistpage_list {
+	width: 670px; overflow: hidden; margin-top: 0px; list-style-type: none;
+}
+.w_newslistpage_list li {
+	background: url("/sites/slof/Themes/Image/listcontent_dot.gif") no-repeat 14px 16px; width: 638px; padding-top: 8px; padding-left: 32px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: thin; border-bottom-style: dashed; float: left;
+}
+.w_newslistpage_list li .title {
+	float: left;
+}
+.w_newslistpage_list li .newsicon {
+	background: url("/sites/slof/Themes/Image/listcontent_dot.gif") no-repeat 10px 50%; width: 38px; height: 26px; float: left;
+}
+.w_newslistpage_list li .date {
+	color: rgb(102, 102, 102); line-height: 24px; float: right; display: inline;
+}
+.w_newslistpage_list li a:link {
+	text-decoration: none;
+}
+.w_newslistpage_list li a:visited {
+	text-decoration: none;
+}
+.w_newslistpage_list li a:hover {
+	text-decoration: none;
+}
+.w_newslistpage_list li a:active {
+	text-decoration: none;
+}
+.w_newslistpage_head {
+	text-align: left; color: rgb(94, 157, 172); padding-left: 14px; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.w_newslistpage_pager {
+	padding: 10px 10px 10px 0px; clear: both; font-size: 12px; float: left;
+}
+.w_newslistpage_pager span {
+	padding: 5px; width: 30px; height: 28px;
+}
+#pager_p input {
+	margin: 0px 4px; width: 25px;
+}
+.w_newslistpage_pager span a:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.w_newslistpage_pager span a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.w_newslistpage_pager span a:hover {
+	color: rgb(255, 0, 0); text-decoration: none;
+}
+.w_newslistpage_pager span a:active {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.w_newslistpage_pager span a.active {
+	color: rgb(255, 0, 0); font-weight: bold;
+}
+.contentpage-tab1-selected {
+	background: url("/sites/zpeb/Themes/Image/pic_contentpage_tab1_select.png") no-repeat center; color: rgb(255, 255, 255);
+}
+.contentpage-tab1-unselected {
+	background: url("/sites/zpeb/Themes/Image/pic_contentpage_tab1_unselect.png") no-repeat center; color: rgb(102, 102, 102);
+}
+.contentpage-tab2-selected {
+	background: url("/sites/zpeb/Themes/Image/pic_contentpage_tab2_select.png") no-repeat right; color: rgb(0, 121, 210);
+}
+.contentpage-tab2-unselected {
+	background: url("/sites/zpeb/Themes/Image/pic_contentpage_tab2_unselect.png") no-repeat right; color: rgb(102, 102, 102);
+}
+.conlumn-right-one-container {
+	width: 680px; clear: both;
+}
+.conlumn-right-one-left1 {
+	width: 385px; padding-right: 25px; float: left;
+}
+.conlumn-right-one-right1 {
+	width: 260px; float: left;
+}
+.conlumn-right-one-left2 {
+	width: 335px; padding-right: 30px; float: left;
+}
+.conlumn-right-one-right2 {
+	width: 335px; float: left;
+}
+.conlumn-product-right-one-left1 {
+	width: 460px; padding-right: 30px; float: left;
+}
+.conlumn-product-right-one-right1 {
+	width: 180px; float: left;
+}
+.c-about-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-csr-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-service-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-hr-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-news-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-product-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.c-treasury-banner img {
+	width: 960px; height: 200px; display: block;
+}
+.ms-webpartzone-cell {
+	margin: 0px;
+}
+.ms-webpart-titleText span {
+	color: rgb(94, 157, 172); line-height: 36px; font-size: 18px; font-weight: bold;
+}
+.ms-webpart-chrome-title {
+	margin-bottom: 20px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.c-product-serviceimg {
+	
+}
+.c-product-serviceimg img {
+	width: 180px; height: 90px;
+}
+.c-product-productlist {
+	margin-top: 10px; margin-bottom: 10px;
+}
+.c-product-productlist-title {
+	width: 180px; height: 30px; text-align: center; line-height: 28px; font-size: 14px; margin-bottom: 2px; background-color: rgb(204, 204, 204);
+}
+.c-product-productlist-list {
+	width: 180px; height: 225px; padding-top: 10px; background-color: rgb(238, 238, 238);
+}
+.c-product-productlist-list ul li {
+	background: url("/sites/sinolube/Themes/Image/pic_c_news_point.png") no-repeat left; width: 60px; text-align: left; line-height: 26px; padding-left: 10px; margin-left: 10px; float: left;
+}
+.t-product-onecolumn {
+	width: 460px; height: 190px;
+}
+.t-product-onecolumn-head {
+	background: rgb(238, 238, 238); width: 450px; height: 27px; text-align: left; line-height: 27px; letter-spacing: 2px; padding-left: 10px; font-weight: bold; border-top-color: rgb(204, 204, 204); border-top-width: 2px; border-top-style: solid;
+}
+.t-product-onecolumn-head span {
+	float: left;
+}
+.t-product-onecolumn-head a {
+	float: right;
+}
+.t-product-onecolumn-content {
+	width: 460px; height: 163px; padding-top: 5px;
+}
+.t-product-onecolumn-content-img {
+	width: 105px; height: 130px; padding-top: 10px; float: left;
+}
+.t-product-onecolumn-content-img img {
+	width: 105px; height: 130px;
+}
+.t-product-onecolumn-content-text {
+	width: 345px; padding-left: 10px; float: right;
+}
+.t-product-onecolumn-content-text span {
+	background: url("/sites/sinolube/Themes/Image/pic_c_news_point.png") no-repeat left; width: 335px; text-align: left; padding-left: 10px; display: block;
+}
+.t-product-onecolumn-content-text p {
+	margin: 0px; text-align: left; line-height: 24px; text-indent: 2em;
+}
+.t-product-onecolumn-content-text-more {
+	padding-right: 10px; float: right;
+}
+.t-product-twocolumn-contaniner {
+	width: 460px; height: 190px; overflow: hidden;
+}
+.t-product-twocolumn-left {
+	width: 220px; height: 190px; float: left;
+}
+.t-product-twocolumn-right {
+	width: 220px; height: 190px; padding-left: 20px; float: left;
+}
+.t-product-twocolumn-head {
+	background: rgb(238, 238, 238); width: 210px; height: 27px; text-align: left; line-height: 27px; letter-spacing: 2px; padding-left: 10px; font-weight: bold; border-top-color: rgb(204, 204, 204); border-top-width: 2px; border-top-style: solid;
+}
+.t-product-twocolumn-head span {
+	float: left;
+}
+.t-product-twocolumn-head a {
+	float: right;
+}
+.t-product-twocolumn-content {
+	width: 220px; height: 163px; padding-top: 5px;
+}
+.t-product-twocolumn-content-img {
+	width: 85px; height: 110px; float: left;
+}
+.t-product-twocolumn-content-img img {
+	width: 85px; height: 110px;
+}
+.t-product-twocolumn-content-text {
+	width: 125px; padding-left: 10px; float: right;
+}
+.t-product-twocolumn-content-text span {
+	background: url("/sites/sinolube/Themes/Image/pic_c_news_point.png") no-repeat left; width: 115px; text-align: left; padding-left: 10px; display: block;
+}
+.t-product-twocolumn-content-text p {
+	margin: 0px; width: 120px; height: 100px; text-align: left; line-height: 24px; text-indent: 2em; overflow: hidden;
+}
+.t-product-twocolumn-content-text-more {
+	padding-right: 10px; float: right;
+}
+.f-product {
+	width: 460px;
+}
+.f-product li {
+	width: 460px; height: 120px; margin-top: 20px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed; display: block;
+}
+.f-product-leftimg {
+	float: left;
+}
+.f-product-rightcontent {
+	width: 343px; padding-left: 20px; float: right;
+}
+.f-product-rightcontent-title {
+	background: rgb(238, 238, 238); height: 25px; text-align: left; line-height: 27px; padding-left: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 2px; border-top-style: solid;
+}
+.f-product-rightcontent-content {
+	text-align: left; padding-top: 10px; padding-left: 5px;
+}
+.f-product-rightcontent-content p {
+	width: 338px; height: 72px; line-height: 24px; text-indent: 2em; overflow: hidden;
+}
+.w_ChannelTitle_Title {
+	width: 460px; text-align: left; color: rgb(94, 157, 172); line-height: 36px; font-size: 18px; font-weight: bold; margin-bottom: 20px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.ms-hide {
+	display: none;
+}
+.lfnews-nav {
+	margin: 0px auto; width: 90%; height: 26px; text-align: left; line-height: 26px; padding-left: 20px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lfnews-title {
+	margin: 0px auto; width: 80%; height: 50px; text-align: center; color: rgb(0, 113, 208); line-height: 50px; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.lfnews-image {
+	margin: 20px auto; width: 80%; text-align: center;
+}
+.lfnews-newscontain {
+	margin: 20px auto; width: 80%; text-align: left; line-height: 2em; text-indent: 2em;
+}
+.lfnews-content {
+	margin: 20px auto; width: 80%; text-align: left; line-height: 2em;
+}
+.lfnews-content p {
+	margin: 19px 0px; line-height: 2em;
+}
+.lfnews-content img {
+	display: inline;
+}
+.lfnews-video {
+	margin: 20px auto; width: 80%; text-align: center; line-height: 2em;
+}
+.lfnews-bottom {
+	margin: 0px auto; width: 80%; height: 50px; line-height: 50px;
+}
+.lfnews-bottom-left {
+	float: left;
+}
+.lfnews-bottom-right {
+	float: right;
+}
+.lfproduct-newscontain {
+	margin: 20px auto; width: 80%; text-align: left;
+}
+.lfproduct-abstract {
+	margin: 20px; width: 60%; line-height: 2em; text-indent: 2em; float: left;
+}
+.lfproduct-publishimg {
+	margin: 20px; float: right;
+}
+.lfproductnews-content {
+	margin: 20px auto; padding: 10px; border: 1px solid rgb(238, 238, 238); width: 80%; text-align: left; line-height: 2em; clear: both;
+}
+.lfproductnews-content p {
+	margin: 19px 0px; line-height: 2em;
+}
+.error-box {
+	border: 1px solid rgb(245, 245, 245); width: 670px; height: 296px; text-align: center; margin-top: 65px; margin-bottom: 65px; margin-left: 129px; background-color: rgb(250, 250, 250);
+}
+.error-box p {
+	color: black; padding-top: 15px; font-weight: bold;
+}
+.error-box img {
+	padding-top: 45px;
+}
+.lfnewscar {
+	width: 916px; float: left;
+}
+.lfnewscar-left-content {
+	width: 360px; height: 720px; float: left; background-image: url("/sites/sinolube/qcyhzx/Resource/Image/left-bg-2.jpg"); background-repeat: repeat-y;
+}
+.lfnewscar-middle {
+	width: 500px; float: left;
+}
+.lfnewscar-title {
+	margin: 0px auto; width: 500px; height: 50px; text-align: center; color: rgb(0, 113, 208); line-height: 50px; font-size: 16px; font-weight: bold; float: left;
+}
+.lfnewscar-content {
+	margin: 0px auto 20px; width: 450px; text-align: left; line-height: 2em; padding-left: 20px; float: left;
+}
+.lfnewscar-content p {
+	margin: 19px 0px; line-height: 2em;
+}
+.lfnewscar-content img {
+	width: 450px; display: inline;
+}
+.lfnewscar-right-content {
+	height: 720px; float: right; background-color: rgb(238, 238, 238);
+}
+.lfcar-left-content {
+	width: 360px; height: 720px; float: left; background-image: url("/sites/sinolube/qcyhzx/Resource/Image/left-bg-1.jpg"); background-repeat: no-repeat;
+}
+.lfcar-middle {
+	width: 500px; height: 720px; float: left;
+}
+.lfcar-right-content {
+	height: 720px; float: right; background-repeat: repeat-y; background-color: rgb(238, 238, 238);
+}
+.lfcar-column-left-content {
+	width: 360px; height: 720px; float: left; background-image: url("/sites/sinolube/qcyhzx/Resource/Image/left-bg-2.jpg"); background-repeat: no-repeat;
+}
+.lfcar-column-middle {
+	width: 500px; height: 720px; float: left;
+}
+.lfcar-column-right-content {
+	height: 720px; float: right; background-color: rgb(238, 238, 238);
+}
+.lfspacehome-left-content {
+	width: 169px; float: left;
+}
+.lfspacehome-right-content {
+	width: 836px; float: left;
+}
+.space_banner {
+	width: 1005px; float: left;
+}
+.space_banner img {
+	float: left;
+}
+.space-content {
+	width: 1005px; height: 100%; float: left;
+}
+.lfspace-column-left-content {
+	width: 200px; height: 100%; float: left;
+}
+.lfspace-column-middle {
+	width: 635px; height: 782px; float: left; background-image: url("/sites/sinolube/space/Resource/Image/hangtian_mid2.jpg"); background-repeat: repeat-y;
+}
+.lfspace-column-right-content {
+	float: right;
+}
+.lfnewsspace-title {
+	top: 0px; height: 74px; text-align: center; color: rgb(51, 51, 51); line-height: 74px; font-family: "Microsoft YaHei UI"; font-size: 24px; border-bottom-color: rgb(136, 136, 136); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgba(255, 255, 255, 0.8);
+}
+.lfnewsspace-content {
+	margin: 20px auto; width: 95%; text-align: left; line-height: 2em;
+}
+.lfnewsspace-content p {
+	margin: 19px 0px; color: rgb(51, 51, 51); line-height: 2em; font-size: 14px;
+}
+.lfnewsspace-bottom {
+	margin: 0px auto; width: 90%; height: 50px; color: rgb(51, 51, 51); line-height: 50px; font-size: 14px;
+}
+.lfnewsspace-bottom-left {
+	float: left;
+}
+.lfnewsspace-bottom-right {
+	float: right;
+}
+.lfnews-content p img {
+	max-width: 700px;
+}

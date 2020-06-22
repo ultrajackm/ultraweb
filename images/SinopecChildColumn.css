@@ -1,0 +1,540 @@
+.banner {
+	margin: 0px auto; padding: 0px; width: 960px; height: 320px; text-align: left; overflow: hidden; position: relative;
+}
+.banner-img {
+	position: absolute;
+}
+.banner-img img {
+	width: 960px; height: 320px;
+}
+.banner-num {
+	background: url("/sites/sinolube/Themes/Image/pic_banner_bottom.png") repeat-x; width: 960px; height: 25px; text-align: center; bottom: 0px; position: absolute; _background: none; _overflow: hidden;
+}
+.banner-num-center {
+	width: 527px; height: 25px; padding-left: 415px; _padding-left: 395px;
+}
+.banner-num-center div {
+	width: 10px; height: 25px; padding-left: 17px; float: left; cursor: pointer;
+}
+.banner-bottom-select {
+	background: url("/sites/sinolube/Themes/Image/pic_banner_on.png") no-repeat center; color: rgb(57, 119, 138); _margin-top: 7px; _margin-left: 15px; _background: none;
+}
+.banner-bottom-unselect {
+	background: url("/sites/sinolube/Themes/Image/pic_banner_off.png") no-repeat center; color: rgb(255, 255, 255); _margin-top: 7px; _margin-left: 15px; _background: none;
+}
+.news {
+	width: 300px; height: 250px; padding-top: 15px;
+}
+.news-head {
+	width: 300px; height: 27px;
+}
+.news-head-left {
+	
+}
+.news-head-right {
+	
+}
+.news-content {
+	width: 268px; height: 212px; padding-right: 15px; padding-bottom: 0px; padding-left: 15px;
+}
+.news-content-img {
+	width: 268px; height: 120px; overflow: hidden;
+}
+.news-content-img-imgtap {
+	position: relative;
+}
+.news-content-img-imgtap-img {
+	height: 120px;
+}
+.news-content-img-imgtap-img img {
+	width: 268px; height: 120px;
+}
+.news-content-img-imgtap-numwrapper {
+	background: url("/sites/sinolube/Themes/Image/pic_news_content_img-imgtap_numwrapper.png") no-repeat center; left: 0px; text-align: center; bottom: 0px; display: inline; position: absolute; _background: none; _bottom: 0px;
+}
+.news-content-img-imgtap-num {
+	padding-left: 184px;
+}
+.news-content-img-imgtap-num a {
+	width: 20px; height: 13px; color: rgb(255, 255, 255); font-size: 11px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; float: left; cursor: pointer;
+}
+.news-content-list {
+	width: 268px; height: 72px; overflow: hidden; padding-top: 10px; clear: both;
+}
+.news-content-list ul li {
+	background: url("/sites/sinolube/Themes/Image/pic_news_list_point.jpg") no-repeat left; height: 24px; text-align: left; line-height: 24px; overflow: hidden; padding-left: 13px; _height: 22px; _line-height: 22px;
+}
+.news-content-list ul li a {
+	float: left;
+}
+.news-content-list ul li span {
+	float: right;
+}
+.product {
+	width: 300px; height: 250px; padding-top: 15px;
+}
+.product-head {
+	
+}
+.product-head-left {
+	background: rgb(78, 159, 227);
+}
+.product-head-right {
+	background: url("/sites/sinolube/Themes/Image/title_blue4e9fe3_r.png") no-repeat center; _background: none;
+}
+.product-content {
+	width: 278px; height: 202px;
+}
+.product-content-img {
+	width: 232px; height: 120px; overflow: hidden; padding-right: 13px; padding-left: 13px; float: left;
+}
+.product-content-img img {
+	width: 232px; height: 120px;
+}
+.product-content-left {
+	width: 10px; height: 81px; padding-top: 23px; float: left; cursor: pointer;
+}
+.product-content-right {
+	width: 10px; height: 81px; padding-top: 23px; float: left; cursor: pointer;
+}
+.product-content-left img {
+	width: 10px; height: 81px; float: left;
+}
+.product-content-right img {
+	width: 10px; height: 81px; float: left;
+}
+.product-content-list {
+	width: 268px; padding-top: 10px; padding-left: 10px; clear: both;
+}
+.product-content-list ul li {
+	background: url("/sites/sinolube/Themes/Image/pic_news_list_point.jpg") no-repeat left; text-align: left; line-height: 24px; padding-left: 13px; _line-height: 22px;
+}
+.product-content-list ul li span {
+	float: right;
+}
+.link {
+	width: 300px; height: 250px; padding-top: 15px;
+}
+.link-content-link {
+	width: 300px; height: 90px; background-color: rgb(238, 238, 238);
+}
+.link-content-link ul li {
+	height: 30px; text-align: left; line-height: 30px; float: left; display: block;
+}
+.link-content-link-item1 {
+	width: 285px; padding-left: 15px;
+}
+.link-content-link-item2 {
+	width: 80px; padding-left: 15px;
+}
+.link-content-link-item3 {
+	width: 90px;
+}
+.link-content-link-item4 {
+	width: 115px;
+}
+.link-content-link-item5 {
+	width: 80px; padding-left: 15px;
+}
+.link-content-link-item6 {
+	width: 90px;
+}
+.link-content-link-item7 {
+	width: 115px;
+}
+.link-content-img {
+	width: 300px; height: 150px; margin-top: 10px; background-color: rgb(238, 238, 238);
+}
+.link-content-img img {
+	width: 270px; height: 60px; padding-top: 10px; padding-left: 15px; display: block;
+}
+.sasac {
+	width: 300px; height: 216px; padding-top: 15px; padding-bottom: 15px;
+}
+.sasac-head {
+	width: 300px; height: 27px;
+}
+.sasac-head-left {
+	background: rgb(23, 164, 60);
+}
+.sasac-head-right {
+	background: url("/sites/sinolube/Themes/Image/title_green17a43c_r.png") no-repeat center; _background: none;
+}
+.sasac-content {
+	width: 278px; height: 168px;
+}
+.sasac-content-list {
+	width: 278px; height: 168px; overflow: hidden;
+}
+.sasac-content-list ul li {
+	background: url("/sites/sinolube/Themes/Image/pic_news_list_point.jpg") no-repeat left; height: 24px; text-align: left; line-height: 24px; padding-left: 13px; _height: 22px; _line-height: 22px;
+}
+.sasac-content-list ul li a {
+	float: left;
+}
+.sasac-content-list ul li span {
+	float: right;
+}
+.treasury {
+	width: 300px; height: 216px; padding-top: 15px; padding-bottom: 15px;
+}
+.treasury-head {
+	
+}
+.treasury-head-left {
+	background: rgb(118, 194, 0);
+}
+.treasury-head-right {
+	background: url("/sites/sinolube/Themes/Image/title_green76c200_r.png") no-repeat center; _background: none;
+}
+.treasury-content {
+	width: 278px; height: 188px; padding-top: 0px; padding-bottom: 0px;
+}
+.treasury-content-item {
+	width: 278px; height: 70px; padding-top: 17px;
+}
+.treasury-content-item img {
+	width: 105px; height: 70px; float: left;
+}
+.treasury-content-item-list {
+	padding-left: 10px; float: left;
+}
+.treasury-content-item ul li {
+	background: url("/sites/sinolube/Themes/Image/pic_news_list_point.jpg") no-repeat left; line-height: 24px; padding-left: 13px;
+}
+.service {
+	border: 1px solid rgb(204, 204, 204); width: 298px; height: 214px; margin-top: 15px; margin-bottom: 15px;
+}
+.service-content {
+	
+}
+.service-content-img img {
+	padding: 10px 10px 5px; width: 268px; height: 46px;
+}
+.service-content-text {
+	float: left;
+}
+.service-content-text ul li {
+	text-align: left; line-height: 24px; padding-left: 20px;
+}
+.service-content-text ul li span {
+	color: rgb(0, 121, 210);
+}
+.weixin {
+	float: left;
+}
+.weixin_img {
+	width: 120px; height: 134px; text-align: center; padding-left: 12px; float: left;
+}
+.weixin_img img {
+	height: 105px; padding-bottom: 8px;
+}
+.taobao {
+	text-align: center; padding-left: 20px; float: left;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h6 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+pre {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+input {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+textarea {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+blockquote {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+th {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+td {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+img {
+	vertical-align: middle;
+}
+input {
+	vertical-align: middle;
+}
+select {
+	vertical-align: middle;
+}
+html {
+	height: 100%; -webkit-text-size-adjust: none;
+}
+table {
+	border-collapse: collapse;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearit {
+	clear: both;
+}
+#Content {
+	margin: 0px auto; width: 960px; height: 100%;
+}
+.photo {
+	width: 960px;
+}
+photo2 {
+	width: 960px;
+}
+photo3 {
+	width: 960px;
+}
+photo4 {
+	width: 960px;
+}
+.photo .flt {
+	left: 850px; top: 110px;
+}
+.photo img {
+	vertical-align: top;
+}
+.photo2 img {
+	vertical-align: top;
+}
+.photo3 img {
+	vertical-align: top;
+}
+.photo4 img {
+	vertical-align: top;
+}
+.label {
+	width: 960px; height: 297px; margin-top: 17px; margin-bottom: 17px;
+}
+.label ul {
+	width: 240px; height: 297px;
+}
+.label ul a {
+	text-decoration: none; cursor: pointer;
+}
+.label ul a:link {
+	text-decoration: none; cursor: pointer;
+}
+.label ul a:visited {
+	text-decoration: none; cursor: pointer;
+}
+.label ul a:active {
+	text-decoration: none; cursor: pointer;
+}
+.label ul a:hover {
+	text-decoration: none; cursor: pointer;
+}
+.label ul li {
+	background: rgb(204, 204, 204); height: 31px; margin-bottom: 2px; float: right;
+}
+.label ul li .bgImg {
+	background: url("/sites/sinolube/Themes/images/img_0520_15.gif") no-repeat left top; width: 30px; height: 31px; float: left;
+}
+.label ul li .name {
+	text-align: right; color: rgb(255, 255, 255); line-height: 31px; padding-right: 15px; padding-left: 15px; float: left;
+}
+#current1 {
+	background: url("/sites/sinolube/Themes/images/img_0520_14.gif") no-repeat left top; width: 30px; height: 31px;
+}
+#currentname1 {
+	background: rgb(8, 83, 163);
+}
+.floatdiv {
+	background: rgb(255, 255, 255); border: 3px solid rgb(8, 83, 163); left: 238px; top: 0px; width: 538px; padding-bottom: 20px; z-index: 99;
+}
+.floatdiv .fdiv {
+	margin: 16px 14px; width: 510px; height: 100px; float: left;
+}
+.floatdiv h3 {
+	width: 410px; height: 30px; color: rgb(215, 19, 24); line-height: 30px; font-size: 14px; margin-left: 60px; float: left; display: inline-block; _margin-left: 30px;
+}
+.floatdiv span {
+	width: 410px; color: rgb(0, 0, 0); line-height: 20px; margin-left: 60px; float: left; display: inline-block;
+}
+.example {
+	width: 960px; height: 626px;
+}
+.example ul {
+	margin: 20px 125px; width: 710px;
+}
+.example ul li {
+	height: 189px; margin-right: 2px; margin-bottom: 3px; float: left;
+}
+.example ul li.small {
+	width: 172px;
+}
+.example ul li.big {
+	background: url("/sites/sinolube/Themes/images/img_0520_11.gif") no-repeat left top; padding: 20px 50px; width: 434px; height: 149px;
+}
+.example ul li.big2 {
+	background: url("/sites/sinolube/Themes/images/img_0520_12.gif") no-repeat left top; padding: 20px 50px; width: 434px; height: 149px;
+}
+.example ul li.big3 {
+	background: url("/sites/sinolube/Themes/images/img_0520_13.gif") no-repeat left top; padding: 20px 50px; width: 434px; height: 159px;
+}
+.example ul li h1 {
+	line-height: 40px; font-size: 16px;
+}
+.example ul li span {
+	line-height: 22px; font-size: 12px;
+}
+.example ul li.big h1 {
+	color: rgb(255, 255, 255);
+}
+.example ul li.big span {
+	color: rgb(255, 255, 255);
+}
+.photo4 {
+	margin-top: 50px;
+}
+.label2 {
+	background: url("/sites/sinolube/Themes/images/img_0522_04.jpg") no-repeat left top; width: 960px; height: 499px; position: relative;
+}
+.label2 ul {
+	width: 240px; height: 297px;
+}
+.label2 ul a {
+	text-decoration: none; cursor: pointer;
+}
+.label2 ul a:link {
+	text-decoration: none; cursor: pointer;
+}
+.label2 ul a:visited {
+	text-decoration: none; cursor: pointer;
+}
+.label2 ul a:active {
+	text-decoration: none; cursor: pointer;
+}
+.label2 ul a:hover {
+	text-decoration: none; cursor: pointer;
+}
+.label2 ul li {
+	background: rgb(204, 204, 204); height: 31px; margin-bottom: 2px; float: right;
+}
+.label2 ul li .bgImg {
+	background: url("/sites/sinolube/Themes/images/img_0520_15.gif") no-repeat left top; width: 30px; height: 31px; float: left;
+}
+.label2 ul li .name {
+	text-align: right; color: rgb(255, 255, 255); line-height: 31px; padding-right: 15px; padding-left: 15px; float: left; white-space: nowrap;
+}
+#current21 {
+	background: url("/sites/sinolube/Themes/images/img_0520_14.gif") no-repeat left top; width: 30px; height: 31px;
+}
+#currentname21 {
+	background: rgb(8, 83, 163);
+}
+.floatdiv2 {
+	background: rgb(255, 255, 255); border: 3px solid rgb(8, 83, 163); left: 238px; top: 0px; width: 538px; padding-bottom: 20px; position: absolute; z-index: 99;
+}
+.floatdiv2 .fdiv {
+	margin: 16px 14px; width: 510px; height: 100px; float: left;
+}
+.floatdiv2 h3 {
+	width: 410px; height: 30px; color: rgb(215, 19, 24); line-height: 30px; font-size: 14px; margin-left: 60px; float: left; display: inline-block; _margin-left: 30px;
+}
+.floatdiv2 span {
+	width: 410px; color: rgb(0, 0, 0); line-height: 20px; margin-left: 60px; float: left; display: inline-block;
+}
+.example2 {
+	width: 960px; height: 950px;
+}
+.example2 ul {
+	margin: 20px 125px; width: 710px;
+}
+.example2 ul li {
+	height: 189px; margin-right: 2px; margin-bottom: 3px; float: left;
+}
+.example2 ul li.small {
+	width: 172px;
+}
+.example2 ul li.big {
+	background: url("/sites/sinolube/Themes/images/img_0522_11.gif") no-repeat left top; padding: 20px 50px; width: 434px; height: 149px;
+}
+.example2 ul li.big2 {
+	background: url("/sites/sinolube/Themes/images/img_0522_12.gif") no-repeat left top; padding: 20px 50px; width: 434px; height: 149px;
+}
+.example2 ul li h1 {
+	line-height: 40px; font-size: 16px;
+}
+.example2 ul li.big span {
+	width: 434px; line-height: 22px; font-size: 12px; display: inline-block;
+}
+.example2 ul li.big2 span {
+	width: 434px; line-height: 22px; font-size: 12px; display: inline-block;
+}
+.example2 ul li.big h1 {
+	color: rgb(255, 255, 255);
+}
+.example2 ul li.big span {
+	color: rgb(255, 255, 255);
+}
+.example2 ul li.big .text {
+	width: 217px; color: rgb(255, 255, 255); line-height: 22px; font-size: 12px; float: left;
+}
